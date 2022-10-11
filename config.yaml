@@ -1,0 +1,19 @@
+baseURL: 'https://jkcharlie6679.github.io/'
+languageCode: 'en-us'
+title: "Charlie's Play Ground"
+theme: "ananke"
+
+menu:
+  main:
+  - name: about
+    url: /about
+
+params:
+  commentoEnable: true
+  ananke_socials:
+    - name : "github"
+      url: "https://github.com/jkcharlie6679"
+    - name : "gitlab"
+      url: "https://gitlab.com/jkcharlie6679"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/tsung-yu-chan-757776210/"
