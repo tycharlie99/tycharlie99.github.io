@@ -5,10 +5,14 @@ theme: "ananke"
 
 menu:
   main:
-  - name: about
+  - name: About
     url: /about
+  - name: Leetcode
+    url: /leetcode
 
 params:
+  body_classes: "arial bg-near-white"
+  post_content_classes: "avenir bg-near-white"
   commentoEnable: true
   ananke_socials:
     - name : "github"
