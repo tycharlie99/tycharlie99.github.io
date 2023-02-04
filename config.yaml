@@ -7,8 +7,6 @@ menu:
   main:
   - name: About
     url: /about
-  - name: Leetcode
-    url: /leetcode
 
 params:
   body_classes: "arial bg-near-white"
