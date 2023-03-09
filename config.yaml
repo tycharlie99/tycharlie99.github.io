@@ -1,21 +1,62 @@
-baseURL: 'https://jkcharlie6679.github.io/'
+baseURL: 'https://tycharlie.com/'
 languageCode: 'en-us'
 title: "Charlie's Play Ground"
-theme: "ananke"
+
+module:
+  imports:
+    path: github.com/CaiJimmy/hugo-theme-stack/v3
+
+Params:
+  mainSections: 
+    - post
+  Sidebar:
+    emoji: "👨🏻‍💻"
+    subtitle: Travel in the coding world
+    compact: false
+    avatar:
+      src: img/avatar.png
+  widgets:
+    homepage:
+      - type: search
+      - type: categories
+        params:
+          limit: 10
+      - type: tag-cloud
+        params:
+          limit: 20
+
 
 menu:
   main:
-  - name: About
-    url: /about
+    - identifier: home
+      name: Home
+      url: /
+      weight: -100
+      params:
+        icon: home
+    - identifier: about
+      name: About
+      url: /about
+      weight: -90
+      params:
+        icon: user
 
-params:
-  body_classes: "arial bg-near-white"
-  post_content_classes: "avenir bg-near-white"
-  commentoEnable: true
-  ananke_socials:
-    - name : "github"
-      url: "https://github.com/jkcharlie6679"
-    - name : "gitlab"
-      url: "https://gitlab.com/jkcharlie6679"
-    - name: "linkedin"
-      url: "https://www.linkedin.com/in/tsung-yu-chan-757776210/"
+  Social:
+    - identifier: github
+      name: GitHub
+      url: 'https://github.com/jkcharlie6679/'
+      params:
+        icon: brand-github
+        newTab: true
+    - identifier: gitlab
+      name: Gitlab
+      url: 'https://gitlab.com/jkcharlie6679/'
+      params:
+        icon: brand-gitlab
+        newTab: true
+    - identifier: linkedin
+      name: linkedin
+      url: 'https://www.linkedin.com/in/tsung-yu-chan-757776210/'
+      params:
+        icon: brand-linkedin
+        newTab: true
