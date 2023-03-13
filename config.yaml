@@ -24,6 +24,14 @@ Params:
       - type: tag-cloud
         params:
           limit: 20
+  
+  Comments:
+    enabled: true
+    provider: remark42
+    remark42:
+      host: https://comment.tycharlie.com
+      site: tycharlie.com
+      locale: en
 
 
 menu:

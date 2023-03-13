@@ -1,9 +1,10 @@
 ---
 title: "Apply For the EURECOM Internship"
-date: 2023-03-08
 image: cover.jpg
-tags: ["EURECOM", "France"]
+PublishDate: 2023-03-09
+LastMod: 
 categories: ["EURECOM"]
+tags: ["EURECOM", "France"]
 ---
 
 ## Schedule for Applying for the EURECOM Internship
