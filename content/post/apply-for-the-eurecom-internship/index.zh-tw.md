@@ -1,7 +1,7 @@
 ---
 title: "法國 EURECOM 實習申請"
 image: img/cover.jpg
-PublishDate: 2023-03-17
+PublishDate: 2023-03-17T00:00:16+08:00
 LastMod: 
 categories: ["EURECOM"]
 tags: ["EURECOM", "法國"]
