@@ -25,13 +25,11 @@ Fullstack developer.
 
 ## Experiences
 
-{{% html %}}
 | Start | End | Location | Organization |
 | :-: | :-: | :-: | :-: |
 | &nbsp;2023 April&nbsp; | &nbsp;Present&nbsp; | &nbsp; Biot, France&nbsp; | &nbsp;EURECOM&nbsp; |
 | &nbsp;2021 April&nbsp; | &nbsp;2022 Augest&nbsp; | &nbsp;Taipei, Taiwan &nbsp; | &nbsp;eCloudvalley&nbsp; |
 | &nbsp;2020 June&nbsp; | &nbsp;2021 January&nbsp; | &nbsp;Taipei, Taiwan &nbsp; | &nbsp;NADI System Corp.&nbsp; |
-{{% /html %}}
 
 ## Contact
 

@@ -1,8 +1,8 @@
 ---
 title: "Apply For the EURECOM Internship"
-image: cover.jpg
+image: img/cover.jpg
 PublishDate: 2023-03-09
-LastMod: 
+LastMod: 2023-03-16T16:14:00+08:00
 categories: ["EURECOM"]
 tags: ["EURECOM", "France"]
 ---
@@ -23,6 +23,8 @@ tags: ["EURECOM", "France"]
 
   Insurance will be used on the internship agreement and the application for the VISA. The period of insurance needs to cover the period of internships and include medical insurance and personal liability. I bought the insurance from Fubon named "一期築夢". The insurance needs to obey the rule of the Schengen Area.
 
+  {{< img src="img/insurance.jpeg" width="95%">}}
+
 - **Receive the internship agreement and run the signature process**
 
   After sending back the "2B" file, you will receive the internship agreement. You need to run the process for signature.
@@ -37,7 +39,7 @@ tags: ["EURECOM", "France"]
 
 - **Apply for the VISA**
 
-  You need to go to the [website](https://france-taipei.org/-%E4%B8%AD%E6%96%87-) of the French Office in Taipei to apply for the VISA.
+  You need to go to the [website](https://france-taipei.org/-%E4%B8%AD%E6%96%87-) of the French Office in Taipei to apply for the VISA. If you have any questions, please through the following [page](https://france-taipei.org/%E7%B0%BD%E8%AD%89%E4%BA%8B%E5%8B%99) to reach out the VISA depart. They only have email.
 
 - **Apply for the go-aborad internship permission (military service)**
 
@@ -82,4 +84,4 @@ Please start to deal with these processes at least 2.5 months before the date yo
 
 At the end of this blog, I need to thank any people who give me a hand when I dealing with this process. The process will not be easy for the first time. After I get help from my friend, I need to share these experiences with anyone who wants to apply for the internship at EURECOM. Very welcome to contact me, if you meet some problems.
 
-{{% footer %}}
+{{< footer >}}
