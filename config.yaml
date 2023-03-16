@@ -1,6 +1,13 @@
 baseURL: 'https://tycharlie.com/'
 languageCode: 'en-us'
 title: "Charlie's Play Ground"
+DefaultContentLanguage: en
+
+languages:
+  en:
+    languageName: "English"
+  zh-tw:
+    languageName: "繁體中文"
 
 module:
   imports:

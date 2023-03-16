@@ -2,7 +2,7 @@
 title: "Apply For the EURECOM Internship"
 image: img/cover.jpg
 PublishDate: 2023-03-09
-LastMod: 2023-03-16T16:14:00+08:00
+LastMod: 2023-03-17T16:00:16+08:00
 categories: ["EURECOM"]
 tags: ["EURECOM", "France"]
 ---
@@ -19,7 +19,7 @@ tags: ["EURECOM", "France"]
 
   For tickets, I recommend buying a round-trip ticket as it will be cheaper. I bought a ticket for the emirates about a 20-hour flight. You can choose a few days before and after the date to find the cheapest air ticket.
 
-  For the room in France, there are two ways to book in usual. One is booking on Airbnb, which can reduce some administrative processes such as home insurance, guarantee, etc. Another is booking the room on the website from EURECOM named [Studapart](https://eurecom.studapart.com/en/). The second need to pay some fee for the platform and deal with the guarantee problem.
+  For the room in France, there are two ways to book in usual. One is booking on Airbnb, which can reduce some administrative processes such as home insurance, guarantee, etc. Another is booking the room on the website from EURECOM named [Studapart](https://eurecom.studapart.com/en/). The second need to pay some fee for the platform and deal with the guarantee problem. When you communicate with the landlord, if you can use France, it will be more polite.
 
   Insurance will be used on the internship agreement and the application for the VISA. The period of insurance needs to cover the period of internships and include medical insurance and personal liability. I bought the insurance from Fubon named "一期築夢". The insurance needs to obey the rule of the Schengen Area.
 
@@ -27,7 +27,7 @@ tags: ["EURECOM", "France"]
 
 - **Receive the internship agreement and run the signature process**
 
-  After sending back the "2B" file, you will receive the internship agreement. You need to run the process for signature.
+  After sending back the "2B" file, you will receive the internship agreement. You need to run the process for signature. It includes you, the Academic supervisor, and the legal representative of your University.
 
 - **Receive the original internship agreement and invitation letter**
 
@@ -35,7 +35,7 @@ tags: ["EURECOM", "France"]
 
 - **Receive the validation of agreement internship from Franch Authorities**
 
-  After the validation, you will receive the validation from HR.
+  When waiting for 2-4 weeks, you will receive the certificate of the validation from the HR.
 
 - **Apply for the VISA**
 
