@@ -1,5 +1,7 @@
 ---
 title: "About"
+comments: false
+toc: false
 ---
 
 ## Major Research Direction
