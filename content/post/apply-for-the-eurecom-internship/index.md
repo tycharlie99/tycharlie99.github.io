@@ -4,7 +4,7 @@ image: img/cover.jpg
 PublishDate: 2023-03-09T00:00:16+08:00
 LastMod: 2023-03-17T16:16:00+08:00
 categories: ["EURECOM"]
-tags: ["EURECOM", "France"]
+tags: ["EURECOM", "France", "internship"]
 ---
 
 ## Schedule for Applying for the EURECOM Internship

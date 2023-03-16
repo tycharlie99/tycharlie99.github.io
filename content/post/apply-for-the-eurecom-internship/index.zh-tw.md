@@ -4,7 +4,7 @@ image: img/cover.jpg
 PublishDate: 2023-03-17T00:00:16+08:00
 LastMod: 
 categories: ["EURECOM"]
-tags: ["EURECOM", "法國"]
+tags: ["EURECOM", "法國", "實習"]
 ---
 
 ## 申請 EURECOM 實習的步驟
