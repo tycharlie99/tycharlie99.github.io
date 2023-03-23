@@ -2,7 +2,7 @@
 title: "法國 EURECOM 實習申請"
 image: img/cover.jpg
 PublishDate: 2023-03-17T00:00:16+08:00
-LastMod: 
+LastMod: 2023-03-23T17:16:00+08:00
 categories: ["EURECOM"]
 tags: ["EURECOM", "法國", "實習"]
 ---
@@ -62,6 +62,7 @@ tags: ["EURECOM", "法國", "實習"]
 - 2/21 申請兵役出國實習許可
 - 3/06 因為我的時間較急迫，提前申請簽證，需要在 validation 完成後將證明寄回才可以拿到簽證
 - 3/07 收到兵役的出國許可
+- 3/23 收到法國政府實習許可 (avis favorable)，並回傳給法國在台協會
 
 ## 你可以準備的事情
 
