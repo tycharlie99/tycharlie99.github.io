@@ -63,6 +63,7 @@ My internship period is from 23/04/01 to 23/09/30.
 - 3/06 Apply for the VISA and wait for the validation. Need to send the successful validation back to French Office in Taipei for getting the VISA
 - 3/07 Receive permission for the go-aborad internship from the government
 - 3/23 Receive **avis favorable** (certificate) from French Authorities, then send back to French Office in Taipei
+- 3/27 Receive the VISA approval mail from French Office in Taipei
 
 ## The Thing You Can Prepare First
 
