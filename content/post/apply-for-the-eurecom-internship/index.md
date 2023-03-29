@@ -2,7 +2,7 @@
 title: "Apply For the EURECOM Internship"
 image: img/cover.jpg
 PublishDate: 2023-03-09T00:00:16+08:00
-LastMod: 2023-03-23T17:16:00+08:00
+LastMod: 2023-03-29T15:16:00+08:00
 categories: ["EURECOM"]
 tags: ["EURECOM", "France", "internship"]
 ---
