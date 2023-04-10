@@ -2,7 +2,7 @@
 title: "Vim Tutorial"
 image: img/cover.jpg
 PublishDate: 2023-03-22T23:31:00+08:00
-LastMod: 
+LastMod: 2023-04-10T17:40:00+08:00
 categories: ["Note"]
 tags: ["Vim","tutorial"]
 draft: false
@@ -105,5 +105,48 @@ After entering the desired mode, you can select the area to be edited using the 
 
 - `I` you will be able to edit the first line of the selected area, and upon completion, pressing `Esc` will apply the same edit to all other selected areas.
 - `x` delete the selected area
+
+## Configure Your Vim
+
+The default configuration in Vim is basic and might not be sufficient for some users. However, Vim provides the flexibility to customize its settings according to your preference. This part will introduce some useful configurations in Vim that can improve your editing experience.
+
+### Configuration
+
+Use the following command in the last line command mode to configure your Vim:
+
+- `set number`: Show the line number
+- `set tabstop=2`: Setting the tab key to 2 space
+- `set shiftwidth=2`: Auto shift if you are using the curly brackets
+- `set expandtab`: Let the tab usung the space
+- `set autoindent`: Let tab can auto align indent
+- `set cursorline`: Highlight the current line
+- `set hlsearch`: Highlight the search result
+
+### Shortcut
+
+There have some commands we usually use it. But it is hard to remember or too long for not easier to enter. We can set the sort cut for the command like the following:
+
+- `nnoremap <C-n> :NERDTreeToggle<CR>`: Control + n for the NERDTreeToggle
+- `nnoremap <C-k> :tabnext<CR>`: Control + k for the next tab
+
+> For more information please refer the official documentation [Vim documentation: map](https://vimdoc.sourceforge.net/htmldoc/map.html)
+
+### Let the Configuration Be Default
+
+After introducing some useful configuration commands, you might find that when you reopen Vim, your configuration is not saved. This is because Vim does not remember your settings by default. To save your configuration, you need to create a file named `.vimrc` in your home folder. Once you launch Vim, it will read the content in the `.vimrc` file and set the configurations you have specified.
+
+To create the `.vimrc` file, you can use the following example in your file and add some command you like:
+
+```bash
+set number
+set tabstop=2
+set shiftwidth=2
+set expandtab
+set autoindent
+set cursorline
+set hlsearch
+nnoremap <C-n> :NERDTreeToggle<CR>
+nnoremap <C-k> :tabnext<CR>
+```
 
 {{% footer %}}

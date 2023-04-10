@@ -2,7 +2,7 @@
 title: "Vim 學習筆記"
 image: img/cover.jpg
 PublishDate: 2023-03-21T00:00:00+08:00
-LastMod: 2023-03-22T23:31:00+08:00
+LastMod: 2023-04-10T17:40:00+08:00
 categories: ["Note"]
 tags: ["Vim","教學"]
 draft: false
@@ -105,5 +105,48 @@ draft: false
 
 - `I` 會出現可以再選取的第一行進行編輯，完成後按下 `Esc` 即可對所有選去的地方完成一樣的編輯
 - `x` 將選取的地方進行刪除
+
+## 設定你的 Vim
+
+Vim 的預設設定非常簡單，可能務法滿足某些使用者的需求。但是 Vim 提供了靈活的設定功能，可以根據自己的喜好自定義其設置。接下來將介紹一些有用的 Vim 設定，可以提高使用體驗。
+
+### 設定指令
+
+在 Last Line mode 下，使用以下命令設定 Vim：
+
+- `set number`: 顯示行號
+- `set tabstop=2`: 將 tap 設定為 2 格的寬度
+- `set shiftwidth=2`: 在括號中可以自動位移 2 格
+- `set expandtab`: 將 tab 轉成空格
+- `set autoindent`: 自動對齊
+- `set cursorline`: 強調現在在的位置
+- `set hlsearch`: 強調搜尋結果
+
+### 快捷鍵
+
+有些指令我們經常使用，但是很難記住或者輸入過於繁瑣。我們可以為命令設置快捷鍵，如下所示：
+
+- `nnoremap <C-n> :NERDTreeToggle<CR>`: Control + n 觸發 NERDTreeToggle 指令
+- `nnoremap <C-k> :tabnext<CR>`: Control + k 切換到下一個 tab
+
+> 更詳細的內容請參考官方文件 [Vim documentation: map](https://vimdoc.sourceforge.net/htmldoc/map.html)
+
+### 讓設定成為默認
+
+在介紹了一些有用的配置指令後，你可能會發現，當重新打開 Vim 時，原本的配置並沒有被保存。這是因為 Vim 默認不會記住設置。為了保存配置，需要在 `home` 下創建一個 `.vimrc` 的文件。一旦啟動 Vim，它就會讀取 `.vimrc` 文件中的內容，並設置指定的配置。
+
+要創建 `.vimrc` 文件，可以參考下面的範例，並添加一些自己喜歡的命令：
+
+```bash
+set number
+set tabstop=2
+set shiftwidth=2
+set expandtab
+set autoindent
+set cursorline
+set hlsearch
+nnoremap <C-n> :NERDTreeToggle<CR>
+nnoremap <C-k> :tabnext<CR>
+```
 
 {{% footer-zh %}}
