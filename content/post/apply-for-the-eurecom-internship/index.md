@@ -2,7 +2,7 @@
 title: "Apply For the EURECOM Internship"
 image: img/cover.jpg
 PublishDate: 2023-03-09T00:00:16+08:00
-LastMod: 2023-03-29T15:16:00+08:00
+LastMod: 2023-04-13T21:16:00+08:00
 categories: ["EURECOM"]
 tags: ["EURECOM", "France", "internship"]
 ---
@@ -45,6 +45,10 @@ tags: ["EURECOM", "France", "internship"]
 
   If you are male and have a military service problem, you need to apply for the go-aborad internship permission by the school.
 
+- **VISA Validation**
+
+  After you arrived France, you need go the [website](https://administration-etrangers-en-france.interieur.gouv.fr/) to validation your VISA in first three months, or you will be invaild stay in France.
+
 ## My Experience of Applying the Internship
 
 My internship period is from 23/04/01 to 23/09/30.
@@ -86,4 +90,4 @@ Please start to deal with these processes at least 2.5 months before the date yo
 
 At the end of this blog, I need to thank any people who give me a hand when I dealing with this process. The process will not be easy for the first time. After I get help from my friend, I need to share these experiences with anyone who wants to apply for the internship at EURECOM. Very welcome to contact me, if you meet some problems.
 
-{{< footer >}}
+{{% footer %}}
