@@ -8,6 +8,8 @@ sitemap:
   filename: sitemap.xml
   priority: -1
 
+googleAnalytics: G-H5V684XBH8
+
 languages:
   en:
     languageName: "English"
