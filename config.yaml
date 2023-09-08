@@ -3,6 +3,11 @@ languageCode: 'en-us'
 title: "Charlie's Playground"
 DefaultContentLanguage: en
 
+sitemap:
+  changeFreq: ""
+  filename: sitemap.xml
+  priority: -1
+
 languages:
   en:
     languageName: "English"
