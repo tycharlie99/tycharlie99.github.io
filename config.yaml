@@ -10,6 +10,8 @@ sitemap:
 
 googleAnalytics: G-H5V684XBH8
 
+enableRobotsTXT: true
+
 languages:
   en:
     languageName: "English"
