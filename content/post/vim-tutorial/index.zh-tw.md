@@ -1,6 +1,12 @@
 ---
 title: "Vim 學習筆記"
 image: img/cover.jpg
+description: "新手 Vim 教學"
+keywords:
+  - vim
+  - tutorial
+  - IDE
+  - 教學
 PublishDate: 2023-03-21T00:00:00+08:00
 LastMod: 2023-04-10T17:40:00+08:00
 categories: ["Note"]

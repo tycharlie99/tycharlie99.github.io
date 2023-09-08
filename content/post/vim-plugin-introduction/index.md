@@ -1,6 +1,11 @@
 ---
 title: "Vim Plugin Introduction"
 image: img/cover.jpg
+description: "This is a page to intruduce the common=n vim plugin for the software developer."
+keywords:
+  - vim
+  - plugins
+  - introduction
 PublishDate: 2023-03-31T18:48:00+08:00
 LastMod: 
 categories: ["Note"]

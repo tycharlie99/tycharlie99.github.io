@@ -1,6 +1,12 @@
 ---
 title: "Vim 套件介紹"
 image: img/cover.jpg
+description: "軟體工程師常用的 Vim 套件介紹"
+keywords:
+  - vim
+  - plugins
+  - introduction
+  - 套件
 PublishDate: 2023-03-28T00:00:00+08:00
 LastMod: 2023-04-13T21:20:00+08:00
 categories: ["Note"]

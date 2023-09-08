@@ -1,6 +1,13 @@
 ---
 title: "法國 EURECOM 實習申請"
 image: img/cover.jpg
+description: "法國 EURECOM 實習申請流程與注意事項"
+keywords:
+  - EURECOM
+  - Intern
+  - Internship
+  - France
+  - 法國
 PublishDate: 2023-03-17T00:00:16+08:00
 LastMod: 2023-04-13T21:16:00+08:00
 categories: ["EURECOM"]

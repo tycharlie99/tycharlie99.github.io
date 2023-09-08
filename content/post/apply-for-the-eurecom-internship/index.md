@@ -1,6 +1,12 @@
 ---
 title: "Apply For the EURECOM Internship"
 image: img/cover.jpg
+description: "This page is for the student apply the internship for EURECOM."
+keywords:
+  - EURECOM
+  - Intern
+  - Internship
+  - France
 PublishDate: 2023-03-09T00:00:16+08:00
 LastMod: 2023-04-13T21:16:00+08:00
 categories: ["EURECOM"]
