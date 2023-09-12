@@ -4,9 +4,9 @@ title: "Charlie's Playground"
 DefaultContentLanguage: en
 
 sitemap:
-  changeFreq: ""
+  changeFreq: always
   filename: sitemap.xml
-  priority: -1
+  priority: 0.5
 
 googleAnalytics: G-H5V684XBH8
 
