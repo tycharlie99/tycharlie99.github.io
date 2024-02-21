@@ -12,6 +12,8 @@ googleAnalytics: G-H5V684XBH8
 
 enableRobotsTXT: true
 
+disqusShortname: "tycharlie"
+
 languages:
   en:
     languageName: "English"
@@ -50,11 +52,12 @@ Params:
       - type: toc
   Comments:
     enabled: true
-    provider: remark42
-    remark42:
-      host: https://comment.tycharlie.com
-      site: tycharlie.com
-      locale: en
+    provider: disqus
+    # provider: remark42
+    # remark42:
+    #   host: https://comment.tycharlie.com
+    #   site: tycharlie.com
+    #   locale: en
   Footer:
     since: 2023
     customText: ""
