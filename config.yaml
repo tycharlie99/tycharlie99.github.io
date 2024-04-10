@@ -29,7 +29,7 @@ Params:
   mainSections: 
     - post
   Sidebar:
-    emoji: "👨🏻‍💻"
+    # emoji: "👨🏻‍💻"
     subtitle: Travel in the coding world
     compact: false
     avatar:
