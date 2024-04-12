@@ -99,7 +99,7 @@ menu:
         newTab: true
     - identifier: linkedin
       name: linkedin
-      url: 'https://www.linkedin.com/in/tsung-yu-chan-757776210/'
+      url: 'https://www.linkedin.com/in/tsungyu-chan/'
       params:
         icon: brand-linkedin
         newTab: true
