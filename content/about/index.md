@@ -4,20 +4,21 @@ comments: false
 toc: false
 ---
 
-## Major Research Direction
-
-### Open Air Interface
-
-This is the project from Eurocom. I'm researching the 5G gNB in the physical layer.
-
-### Web
-
-Fullstack developer.
-
 ## Education
 
-- National Taiwan University of Science and Technology - Electornic and Computer Engineering
-- National Yang Ming Chiao Tung University - Institute of Computer Science Engineering
+{{< education 
+    school="National Yang Ming Chiao Tung University" 
+    location="Hsinchu, Taiwan" 
+    major="Master of Computer Science Engineering" 
+    time="Feb. 2022 - Mar. 2024" 
+>}}
+
+{{< education 
+    school="National Taiwan University of Science and Technology" 
+    location="Taipei, Taiwan" 
+    major="Bachelor of Electornic and Computer Engineering" 
+    time="Sep. 2017 - Jan. 2022" 
+>}}
 
 ## Skills
 

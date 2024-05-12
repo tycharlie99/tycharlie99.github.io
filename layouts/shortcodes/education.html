@@ -1,0 +1,19 @@
+<style>
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+</style>
+
+
+<div>
+  <div class="container">
+    <div style="font-weight: bold; font-size: 120%;"> {{ .Get "school" }} </div>
+    <div style="font-weight: bold; font-size: 120%;"> {{ .Get "location" }} </div>
+  </div>
+  <div class="container">
+    <div> {{ .Get "major" }} </div>
+    <div> {{ .Get "time" }} </div>
+  </div>
+</div>
+
