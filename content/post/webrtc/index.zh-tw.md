@@ -14,8 +14,6 @@ tags: ["WebRTC"]
 draft: false
 ---
 
-# WebRTC 與 Socket 
-
 ## WebRTC
 
 WebRTC 全名為 Web Real-Time Communication，是一個 Google 在 2011 開源的專案，獲得 Apple、Google、Microsoft 與 Mozilla 等的支援，提供瀏覽器即時語音以及視訊的 API (Applicatino Programming Interface)，透過 P2P (peer-to-peer) 的方式進行連線 。
@@ -46,10 +44,10 @@ WebRTC 全名為 Web Real-Time Communication，是一個 Google 在 2011 開源�
 
 - RTCPeerConnection:
 
-    在現今的網路環境，因為固定 IP 資源較為有限，因此許多人都是使用虛擬 IP 在進行上網，為了使雙訪可以進行點對點連線，就需要有 NAT 打洞技術。
-    常見的有：
-    - STUN (Simple Traversla of UDP Through NAT): 透過 UDP 進行 NAT 打洞，僅需要向 STUN server 進行詢問，即可得知自己的 NAT 資訊。
-    - TURN (Traversal Using Relays around NAT): 在無透過 STUN 得知自己位置時，需要靠 TURN server 幫我們進行資料的轉發來進行連線。
+  在現今的網路環境，因為固定 IP 資源較為有限，因此許多人都是使用虛擬 IP 在進行上網，為了使雙訪可以進行點對點連線，就需要有 NAT 打洞技術。
+  常見的有：
+  - STUN (Simple Traversla of UDP Through NAT): 透過 UDP 進行 NAT 打洞，僅需要向 STUN server 進行詢問，即可得知自己的 NAT 資訊。
+  - TURN (Traversal Using Relays around NAT): 在無透過 STUN 得知自己位置時，需要靠 TURN server 幫我們進行資料的轉發來進行連線。
 
     在 WebRTC 中，是使用 ICE (Interactive Connectivity Establishment) server 來幫我們完成以上兩種協定，透過 ICE 的方式，會幫我們先使用 STUN 方式嘗試獲得自己的資訊，如果無法獲取時，會使用 TURN 的方式進行連線。
 
