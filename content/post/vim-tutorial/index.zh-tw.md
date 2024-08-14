@@ -9,8 +9,8 @@ keywords:
   - 教學
 PublishDate: 2023-03-21T00:00:00+08:00
 LastMod: 2023-04-10T17:40:00+08:00
-categories: ["Note"]
-tags: ["Vim","教學"]
+categories: ["Vim"]
+tags: ["Note"]
 draft: false
 ---
 

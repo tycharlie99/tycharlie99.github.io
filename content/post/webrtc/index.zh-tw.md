@@ -9,9 +9,11 @@ keywords:
   - RTC
 PublishDate: 2024-04-25T18:30:00+08:00
 # LastMod: 2023-12-25T18:30:00+08:00
-categories: ["Note"]
-tags: ["WebRTC"]
+categories: ["Programming"]
+tags: ["Note"]
 draft: false
+aliases:
+  - /post/webrtc/
 ---
 
 ## WebRTC

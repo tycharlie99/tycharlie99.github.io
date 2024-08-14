@@ -8,9 +8,11 @@ keywords:
   - introduction
 PublishDate: 2023-03-31T18:48:00+08:00
 LastMod: 
-categories: ["Note"]
-tags: ["Vim","tutorial"]
+categories: ["Vim"]
+tags: ["Note"]
 draft: false
+# aliases:
+#   - /post/vim-plugin-introduction
 ---
 
 In some popular code editors, there are many useful plugins available that can significantly speed up the development process for developers. Vim editor also has a wide variety of plugins available. In this blog post, I will introduce how to use these plugins and share some of the most useful ones.

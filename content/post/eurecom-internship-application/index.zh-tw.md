@@ -11,7 +11,9 @@ keywords:
 PublishDate: 2023-03-17T00:00:16+08:00
 LastMod: 2023-04-13T21:16:00+08:00
 categories: ["EURECOM"]
-tags: ["EURECOM", "法國", "實習"]
+# tags: ["EURECOM", "法國", "實習"]
+aliases:
+  - /post/eurecom-internship-application/
 ---
 
 ## 申請 EURECOM 實習的步驟
