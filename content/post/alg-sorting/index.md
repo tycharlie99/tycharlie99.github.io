@@ -1,7 +1,7 @@
 ---
 title: "[NOTE] Commom Sorting Algorithms"
 description: "Common sorting algorithms comparison and code"
-image: img/cover.jpg
+image: img/cover.webp
 PublishDate: 2024-04-25T17:30:00+08:00
 # LastMod: 2023-12-25T18:30:00+08:00
 keywords:

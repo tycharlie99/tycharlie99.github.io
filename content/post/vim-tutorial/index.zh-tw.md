@@ -1,6 +1,6 @@
 ---
 title: "Vim 學習筆記"
-image: img/cover.jpg
+image: img/cover.webp
 description: "新手 Vim 教學"
 keywords:
   - vim

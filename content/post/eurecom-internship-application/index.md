@@ -1,6 +1,6 @@
 ---
 title: "Apply For the EURECOM Internship"
-image: img/cover.jpg
+image: img/cover.webp
 description: "This page is for the student apply the internship for EURECOM."
 keywords:
   - EURECOM
@@ -29,7 +29,7 @@ categories: ["EURECOM"]
 
   Insurance will be used on the internship agreement and the application for the VISA. The period of insurance needs to cover the period of internships and include medical insurance and personal liability. I bought the insurance from Fubon named "一期築夢". The insurance needs to obey the rule of the Schengen Area.
 
-  {{< img src="img/insurance.jpeg" width="95%">}}
+  {{< img src="img/insurance.webp" width="95%">}}
 
 - **Receive the internship agreement and run the signature process**
 

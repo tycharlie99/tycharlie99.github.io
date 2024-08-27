@@ -1,6 +1,6 @@
 ---
 title: "Vim Tutorial"
-image: img/cover.jpg
+image: img/cover.webp
 description: "This is the tutorial for the beginner to learn the Vim."
 keywords:
   - vim

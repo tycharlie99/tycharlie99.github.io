@@ -1,6 +1,6 @@
 ---
 title: "[筆記] WebRTC 影像串流"
-image: img/cover.zh-tw.jpg
+image: img/cover.webp
 description: "WebRTC 影像串流平台筆記"
 keywords:
   - WebRTC

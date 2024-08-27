@@ -1,6 +1,6 @@
 ---
 title: "法國 EURECOM 實習申請"
-image: img/cover.jpg
+image: img/cover.webp
 description: "法國 EURECOM 實習申請流程與注意事項"
 keywords:
   - EURECOM
@@ -32,7 +32,7 @@ aliases:
 
   保險的部分在申請簽證與簽 internship agreement 時會用到，EURECOM 會要求你的保險必須涵蓋全部的實習期間，保險需要包含 include medical insurance 和 personal liability。我選擇富邦的 "一期築夢"，在保保險時需要注意申根地區的要求，會有一訂的額度限制。
 
-  {{< img src="img/insurance.jpeg" width="95%">}}
+  {{< img src="img/insurance.webp" width="95%">}}
 
 - **收到 internship agreement 並完成簽名**
 

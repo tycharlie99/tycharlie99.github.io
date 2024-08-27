@@ -1,6 +1,6 @@
 ---
 title: "Vim Plugin Introduction"
-image: img/cover.jpg
+image: img/cover.webp
 description: "This is a page to intruduce the common=n vim plugin for the software developer."
 keywords:
   - vim
@@ -46,7 +46,7 @@ call plug#end()
 
 [Vim Awesome](https://vimawesome.com/) is a website where users can search for plugins and see their popularity, as measured by the number of stars and users on GitHub. Vim Awesome provides plugin descriptions and installation guides for each plugin manager.
 
-![vimawesome](img/vimawesome.jpg)
+![vimawesome](img/vimawesome.webp)
 
 ## Useful Plugin
 
@@ -62,7 +62,7 @@ Plug 'preservim/nerdtree'
 
 Once NERDTree is installed, users can open vim in the terminal and enter the command `:NERDTree` to view the file tree. If the file tree appears as shown in the following image, it means that NERDTree has been successfully installed. Users can also use the `:NERDTreeToggle` command to toggle NERDTree, turning the file tree on or off.
 
-![nerdtree](img/nerdtree.jpg)
+![nerdtree](img/nerdtree.webp)
 
 To open NERDTree, users typically need to use the `:NERDTreeToggle` command. However, there is a way to create a shortcut that simplifies the process. To create a shortcut for simplifying the process, users can add the following script to their `.vimrc` file. After adding this script to their `.vimrc` file, users can use `Ctrl + n` to toggle the file tree. Alternatively, users can modify the script according to their preferences.
 
@@ -80,7 +80,7 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 
 If a file in a user's folder has been edited, the plugin will display an icon on the folder, making it easy for users to manage their project and identify which files have been modified. The plugin adds a distinctive icon to the edited file in the folder tree, as shown in the following image. This feature makes it easy for users to quickly identify which files have been modified and manage their projects more efficiently.
 
-![nerdtree-git-plugin](img/nerdtree-git-plugin.jpg)
+![nerdtree-git-plugin](img/nerdtree-git-plugin.webp)
 
 ### vim-airline
 
@@ -92,7 +92,7 @@ Plug 'vim-airline/vim-airline'
 
 After installing the plugin, when using Vim to open a file, users will see an "airline" display below the editor that provides information about the file, such as the current position in the file, file type, and git branch information. This can help developers quickly understand where they are in the project and easily navigate the file.
 
-![vim-airline](img/vim-airline.jpg)
+![vim-airline](img/vim-airline.webp)
 
 ### indentLine
 
@@ -104,6 +104,6 @@ Plug 'Yggdroot/indentLine'
 
 After successfully installing the plugin, users can open files in vim and will see the indent lines displayed in the editor, which help to visually indicate the levels of nesting in the code like the following image. For more configuration please refer to the official user guide.
 
-![indentLine](img/indentLine.jpg)
+![indentLine](img/indentLine.webp)
 
 {{% footer %}}
