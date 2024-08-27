@@ -53,11 +53,6 @@ Params:
   Comments:
     enabled: true
     provider: disqus
-    # provider: remark42
-    # remark42:
-    #   host: https://comment.tycharlie.com
-    #   site: tycharlie.com
-    #   locale: en
   Footer:
     since: 2023
     customText: ""
