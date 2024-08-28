@@ -1,6 +1,6 @@
 ---
 title: "Vim 套件介紹"
-image: img/cover.jpg
+image: img/cover.webp
 description: "軟體工程師常用的 Vim 套件介紹"
 keywords:
   - vim
@@ -46,7 +46,7 @@ call plug#end()
 
 [Vim Awesome](https://vimawesome.com/) 是一個網站，用戶可以在該網站上搜尋套件並查看它們的受歡迎程度，衡量標準是它們在 GitHub 上的星星數和用戶數。 Vim Awesome 為每個插件管理器提供套件描述和安裝教學。
 
-![vimawesome](img/vimawesome.jpg)
+![vimawesome](img/vimawesome.webp)
 
 ## 好用的套件
 
@@ -62,7 +62,7 @@ Plug 'preservim/nerdtree'
 
 安裝NERDTree後，用戶可以在終端打開vim，輸入命令 `:NERDTree` 查看文件樹。 如果出現如下圖所示的文件樹，則說明NERDTree已經安裝成功。 用戶還可以使用 `:NERDTreeToggle` 命令來切換 NERDTree，打開或關閉文件樹。
 
-![nerdtree](img/nerdtree.jpg)
+![nerdtree](img/nerdtree.webp)
 
 要打開 NERDTree，用戶通常需要使用 `:NERDTreeToggle` 命令。 但是，有一種創建快捷方式的方法可以簡化該過程。 要創建簡化流程的快捷方式，用戶可以將以下腳本添加到他們的 `.vimrc` 文件中。 將此腳本添加到他們的 `.vimrc` 文件後，用戶可以使用 `Ctrl + n` 切換文件樹。 或者，用戶可以根據自己的喜好修改腳本。
 
@@ -80,7 +80,7 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 
 如果用戶文件夾中的文件已被編輯，插件將在文件夾上顯示一個圖標，使用戶可以輕鬆管理他們的項目並識別哪些文件已被修改。 該插件在文件夾樹中為已編輯的文件添加了一個獨特的圖標，如下圖所示。 此功能使用戶可以輕鬆快速地識別哪些文件已被修改並更有效地管理他們的項目。
 
-![nerdtree-git-plugin](img/nerdtree-git-plugin.jpg)
+![nerdtree-git-plugin](img/nerdtree-git-plugin.webp)
 
 ### vim-airline
 
@@ -92,7 +92,7 @@ Plug 'vim-airline/vim-airline'
 
 安裝該套件後，當使用 Vim 打開文件時，用戶會在編輯器下方看到一個 airline 的圖示，提供有關文件的信息，例如文件中的當前位置、文件類型和 git 分支信息。 這可以幫助開發人員快速了解他們在項目中的位置並輕鬆導航文件。
 
-![vim-airline](img/vim-airline.jpg)
+![vim-airline](img/vim-airline.webp)
 
 ### indentLine
 
@@ -104,6 +104,6 @@ Plug 'Yggdroot/indentLine'
 
 成功安裝套件後，使用者可以在 vim 中打開文件，並在編輯器中看到縮排線，這有助於直觀地顯示程式碼中的縮排的級別，如下圖所示。 更多配置請參考官方用戶指南。
 
-![indentLine](img/indentLine.jpg)
+![indentLine](img/indentLine.webp)
 
 {{% footer-zh %}}
