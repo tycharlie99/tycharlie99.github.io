@@ -35,7 +35,7 @@ Params:
     avatar:
       enable: true
       local: true
-      src: img/avatar.png
+      src: img/avatar.webp
   widgets:
     homepage:
       - type: search
