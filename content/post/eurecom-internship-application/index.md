@@ -29,7 +29,7 @@ categories: ["EURECOM"]
 
   Insurance will be used on the internship agreement and the application for the VISA. The period of insurance needs to cover the period of internships and include medical insurance and personal liability. I bought the insurance from Fubon named "一期築夢". The insurance needs to obey the rule of the Schengen Area.
 
-  {{< img src="img/insurance.webp" width="95%">}}
+  {{< img src="/post/eurecom-internship-application/img/insurance.webp" alt="Insurance Image" >}}
 
 - **Receive the internship agreement and run the signature process**
 
