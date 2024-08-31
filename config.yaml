@@ -27,7 +27,7 @@ module:
 Params:
   favicon: "/icons/favicon.svg"
   mainSections: 
-    - post
+    - posts
   Sidebar:
     # emoji: "👨🏻‍💻"
     subtitle: Travel in the coding world
