@@ -1,19 +1,17 @@
 ---
 title: "[筆記] WebRTC 影像串流"
-image: img/cover.webp
 description: "WebRTC 影像串流平台筆記"
+image: img/cover.webp
+PublishDate: 2024-04-25T18:30:00+08:00
+categories: ["Programming"]
+LastMod:
+tags: ["Note"]
 keywords:
   - WebRTC
+  - RTC
   - Socket
   - 串流
-  - RTC
-PublishDate: 2024-04-25T18:30:00+08:00
-# LastMod: 2023-12-25T18:30:00+08:00
-categories: ["Programming"]
-tags: ["Note"]
 draft: false
-aliases:
-  - /post/webrtc/
 ---
 
 ## WebRTC
