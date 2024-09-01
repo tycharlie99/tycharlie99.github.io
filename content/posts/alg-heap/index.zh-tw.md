@@ -15,5 +15,5 @@ keywords:
 draft: false
 ---
 
-{{< redirect url="/post/alg-heap/">}}
+{{< redirect url="/posts/alg-heap/">}}
 

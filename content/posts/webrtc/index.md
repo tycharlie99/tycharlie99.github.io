@@ -14,5 +14,5 @@ keywords:
 draft: false
 ---
 
-{{< redirect url="/zh-tw/post/webrtc/">}}
+{{< redirect url="/zh-tw/posts/webrtc/">}}
 

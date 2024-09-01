@@ -13,7 +13,7 @@ keywords:
 draft: false
 ---
 
-{{< redirect url="/zh-tw/post/eurecom-internship-application/" >}}
+{{< redirect url="/zh-tw/posts/eurecom-internship-application/" >}}
 
 <!-- ## Schedule for Applying for the EURECOM Internship -->
 
