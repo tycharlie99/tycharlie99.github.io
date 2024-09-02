@@ -1,0 +1,28 @@
+# [[main]]
+# identifier = "home"
+# name = "Home"
+# url = "/"
+# weight = -100
+
+#   [main.params]
+#   icon = "home"
+#   newTab = false
+
+[[Social]]
+identifier = "github"
+name = "GitHub"
+url = "https://github.com/jkcharlie6679/"
+
+  [Social.params]
+  icon = "brand-github"
+  newTab = true
+
+[[Social]]
+identifier = "linkedin"
+name = "linkedin"
+url = "https://www.linkedin.com/in/tsungyu-chan/"
+
+  [Social.params]
+  icon = "brand-linkedin"
+  newTab = true
+

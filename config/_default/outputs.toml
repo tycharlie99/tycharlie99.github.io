@@ -1,0 +1,7 @@
+home = [ "html" ]
+page = [ "html" ]
+term = [ "html" ]
+
+[section]
+  taxonomy = [ "html", "html" ]
+

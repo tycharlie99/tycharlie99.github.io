@@ -1,7 +1,13 @@
 ---
-comments: false
 title: "About"
 toc: false
+comments: false
+url: /about/ 
+menu:
+  main:
+    weight: 0
+    params: 
+      icon: user
 ---
 
 ## Education

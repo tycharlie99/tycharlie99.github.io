@@ -2,8 +2,8 @@
 title: "Apply For the EURECOM Internship"
 description: "This page is for the student apply the internship for EURECOM."
 image: img/cover.webp
-PublishDate: 2023-03-09T00:00:16+08:00
-LastMod: 2023-04-13T21:16:00+08:00
+PublishDate: 2023-03-09
+LastMod: 2023-04-13
 categories: ["EURECOM"]
 tags: []
 keywords:

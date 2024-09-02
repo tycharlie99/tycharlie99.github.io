@@ -2,7 +2,7 @@
 title: "[Alg Note] Heap and Heap Sort"
 description: "Write some notes when I reviewed the heap sort."
 image: img/cover.webp
-PublishDate: 2024-08-31T12:30:00+08:00
+PublishDate: 2024-08-31
 LastMod: 
 categories: ["Algorithms"]
 tags: ["Note"]

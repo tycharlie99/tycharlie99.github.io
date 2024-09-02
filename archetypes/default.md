@@ -2,8 +2,8 @@
 title: "{{ replace .Name "-" " " | title }}"
 description:
 image:
-PublishDate: {{ .Date }}
-LastMod: {{ .Date }}
+PublishDate: {{ .Date | time.Format ":date_medium" }}
+LastMod: 
 categories: []
 tags: []
 keywords:

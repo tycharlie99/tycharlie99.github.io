@@ -1,0 +1,8 @@
+baseURL = "https://tycharlie.com/"
+title = "Charlie's Playground"
+DefaultContentLanguage = "en"
+languageCode = "en"
+googleAnalytics = "G-H5V684XBH8"
+enableRobotsTXT = true
+disqusShortname = "tycharlie"
+

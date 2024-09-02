@@ -2,9 +2,9 @@
 title: "[筆記] WebRTC 影像串流"
 description: "WebRTC 影像串流平台筆記"
 image: img/cover.webp
-PublishDate: 2024-04-25T18:30:00+08:00
-categories: ["Programming"]
+PublishDate: 2024-04-25
 LastMod:
+categories: ["Programming"]
 tags: ["Note"]
 keywords:
   - WebRTC

@@ -2,8 +2,8 @@
 title: "Vim 套件介紹"
 description: "軟體工程師常用的 Vim 套件介紹"
 image: img/cover.webp
-PublishDate: 2023-03-28T00:00:00+08:00
-LastMod: 2024-08-14T13:20:00+08:00
+PublishDate: 2023-03-28
+LastMod: 
 categories: ["Vim"]
 tags: ["Note"]
 keywords:

@@ -1,0 +1,16 @@
+[goldmark.renderer]
+unsafe = true # Set to true if you have HTML content inside Markdown
+[highlight]
+# anchorLineNos = true
+# lineAnchors = true
+hl_lines = ""
+hl_inline = false
+codeFences = true # Enable markdown use codeblock
+guessSyntax = false
+noClasses = false # Use CSS classes for syntax highlighting
+lineNoStart = 1 # Line number starts from 1
+lineNos = false # Disable line numbers for code blocks
+lineNumbersInTable = true
+tabWidth = 2
+style = "github" # if noClasses set true, this will work or it won't.
+

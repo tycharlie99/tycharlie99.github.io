@@ -1,6 +1,7 @@
 ---
 title: "Search"
 layout: "search"
+url: /zh-tw/search/
 outputs:
   - html
   - json

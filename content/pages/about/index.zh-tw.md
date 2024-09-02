@@ -1,7 +1,13 @@
 ---
 title: "About"
-comments: false
 toc: false
+comments: false
+url: /zh-tw/about/
+menu:
+  main:
+    weight: 0
+    params: 
+      icon: user
 ---
 
 ## Education
