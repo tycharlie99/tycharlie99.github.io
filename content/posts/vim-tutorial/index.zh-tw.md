@@ -153,4 +153,4 @@ nnoremap <C-n> :NERDTreeToggle<CR>
 nnoremap <C-k> :tabnext<CR>
 ```
 
-{{% footer-zh %}}
+{{% footer %}}

@@ -104,4 +104,4 @@ Plug 'Yggdroot/indentLine'
 
 ![indentLine](img/indentLine.webp)
 
-{{% footer-zh %}}
+{{% footer %}}

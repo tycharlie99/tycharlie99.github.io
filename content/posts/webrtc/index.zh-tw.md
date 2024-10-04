@@ -79,5 +79,5 @@ const peerConnection = new RTCPeerConnection(configuration);
 
 [WebRTC](https://webrtc.org)
 
-{{% footer-zh %}}
+{{% footer %}}
 
