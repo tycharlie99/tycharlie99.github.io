@@ -31,44 +31,43 @@ draft: false
 - 游標移動
 
     在除了 Insert mode 中都可以透過 `h`, `j`, `k`, `l` 進行游標的移動
-  - `h` 方向鍵-左
-  - `j` 方向鍵-下
-  - `k` 方向鍵-上
-  - `l` 方向鍵-右
+    - `j`: 方向鍵-下
+    - `h`: 方向鍵-左
+    - `k`: 方向鍵-上
+    - `l`: 方向鍵-右
 
+    - `i`: 進入 Insert mode 並在游標之前
 - 文字編輯
-  - `i` 進入 Insert mode 並在游標之前
-  - `a` 進入 Insert mode 並在游標之後
-  - `o` 在該行的下方新增一行並進入 Insert mode
-  - `O` 在該行的上方新增一行並進入 Insert mode
-  - `x` 刪除游標上的字
-  - `r {n}` 用接著輸入的字取代游標上的字
-  - `dd` 刪除游標該行
-  - `{n}dd` 刪除游標該行後的 n 行
-  - `yy` 複製游標該行
-  - `{n}yys` 複製游標該行後的 n 行
-  - `p` 將複製的內容貼上游標下面的那行
-  - `P` 將複製的內容貼上游標上面的那行
-  - `"` + `+` + `p` 將剪貼簿中 (register) 的資量快速貼上在游標處，適合大量的資料
-  - `u` 回上一步
-  - `Ctrl + r` 取消上一步的動作
-  - `>>` 輸入 tab
-  - `<<` 刪除 tab
+    - `a`: 進入 Insert mode 並在游標之後
+    - `o`: 在該行的下方新增一行並進入 Insert mode
+    - `O`: 在該行的上方新增一行並進入 Insert mode
+    - `x`: 刪除游標上的字
+    - `r{c}`: 用接著輸入的字取代游標上的字
+    - `dd`: 刪除游標該行
+    - `d{n}{方向鍵}`: 刪除游標該行上/下的 n 行
+    - `yy`: 複製游標該行
+    - `y{n}{方向鍵}`: 複製游標該行上/下的 n 行
+    - `p`: 將複製的內容貼上游標下面的那行
+    - `P`: 將複製的內容貼上游標上面的那行
+    - `u`: 回上一步
+    - `Ctrl + r`: 取消上一步的動作
+    - `>>`: 輸入 tab
+    - `<<`: 刪除 tab
 
 - 搜尋
-  - `/{target}` 在檔案中搜尋你要的 target
-    - `n` 可以找到下一個相同的 target
-    - `Shift + n` 可以找到上一個相同的 target
-
+    - `/{target}`: 在檔案中搜尋你要的 target
+    - `n`: 可以找到下一個相同的 target
+    - `Shift + n`: 可以找到上一個相同的 target
 - 畫面分割
-  - `Ctrl + w` `v` 將畫面垂直切分
-  - `Ctrl + w` `s` 將畫面水平切分
-  - `Ctrl + w`  `arrow key` 切換相對應的畫面
-  - `Ctrl + w`  `+`/`-` 增加 / 減少畫面的高度
-  - `Ctrl + w`  `>`/`<` 增加 / 減少畫面的寬度
-  - `{number}` `Ctrl + w`  `|` 設定畫面高度
-  - `{number}` `Ctrl + w`  `_` 設定畫面寬度
-  - `Ctrl + w`  `=` 將所有畫面設定等高等寬
+
+    - `Ctrl + w` `s`: 將畫面水平切分
+    - `Ctrl + w` `v`: 將畫面垂直切分
+    - `Ctrl + w` `arrow key`: 切換相對應的畫面
+    - `Ctrl + w` `+`/`-`: 增加 / 減少畫面的高度
+    - `Ctrl + w` `>`/`<`: 增加 / 減少畫面的寬度
+    - `{number}` `Ctrl + w` `|`: 設定畫面高度
+    - `{number}` `Ctrl + w` `_`: 設定畫面寬度
+    - `Ctrl + w` `=`: 將所有畫面設定等高等寬
 
 > 須自行將{}內的文字轉換成自己的內容
 
@@ -76,26 +75,26 @@ draft: false
 
 在 Last Line mode 中，有許多好用的指令可以幫助我們設定我們的編輯器。當我們從 Normal mode 按下 `:` 進入 Last Line mode 後，我們可以看到在編輯器的下方有可以如入指令的地方透過輸入相對的指令，即可設定我們的編輯器，以下就是一些常用的指令：
 
-- 存擋
-  - `q` 離開不儲存
-  - `q!` 強制離開不除存
-  - `e!` 強制離開並保留最後儲存的版本
-  - `w` 存檔
-  - `w!` 強制存擋
-  - `w {name}` 存檔並將檔案命名
-  - `wq` 儲存並離開
-  - `wq!` 強制儲存並離開
+- 存擋:
+    - `q`: 離開不儲存
+    - `q!`: 強制離開不除存
+    - `e!`: 強制離開並保留最後儲存的版本
+    - `w`: 存檔
+    - `w!`: 強制存擋
+    - `w {name}`: 存檔並將檔案命名
+    - `wq`: 儲存並離開
+    - `wq!`: 強制儲存並離開
 
 - 搜尋並取代
 
     將 `g` 替換成 `gc` 可以在每一個取代前確認
-  - `s/{target}/{replace}/g` 尋找該行中的 target 並取代為 replace
-  - `%s/{target}/{replace}/g` 尋找檔案中的 target 並取代為 replace
-  - `{n1},{n2}s/{target}/{replace}/g` 在 n1 到 n2 中尋找 target 並取代為 replace
+    - `s/{target}/{replace}/g`: 尋找該行中的 target 並取代為 replace
+    - `%s/{target}/{replace}/g`: 尋找檔案中的 target 並取代為 replace
+    - `{n1},{n2}s/{target}/{replace}/g`: 在 n1 到 n2 中尋找 target 並取代為 replace
 
 - 移動游標
-  - `{number}` 將游標移動到 number 行
-  - `$` 將游標移動到最後一行
+    - `{number}`: 將游標移動到 number 行
+    - `$` :將游標移動到最後一行
 
 ### 輸入模式 (Insert Mode)
 
@@ -137,20 +136,6 @@ Vim 的預設設定非常簡單，可能務法滿足某些使用者的需求。�
 
 ### 讓設定成為默認
 
-在介紹了一些有用的配置指令後，你可能會發現，當重新打開 Vim 時，原本的配置並沒有被保存。這是因為 Vim 默認不會記住設置。為了保存配置，需要在 `home` 下創建一個 `.vimrc` 的文件。一旦啟動 Vim，它就會讀取 `.vimrc` 文件中的內容，並設置指定的配置。
-
-要創建 `.vimrc` 文件，可以參考下面的範例，並添加一些自己喜歡的命令：
-
-```bash
-set number
-set tabstop=2
-set shiftwidth=2
-set expandtab
-set autoindent
-set cursorline
-set hlsearch
-nnoremap <C-n> :NERDTreeToggle<CR>
-nnoremap <C-k> :tabnext<CR>
-```
+在介紹了一些有用的配置指令後，你可能會發現，當重新打開 Vim 時，原本的配置並沒有被保存。這是因為 Vim 默認不會記住設置。為了保存配置，需要在 `home` 下創建一個 `.vimrc` 的文件並將設定寫在檔案中。一旦啟動 Vim，它就會讀取 `.vimrc` 文件中的內容，並設置指定的配置。
 
 {{% footer %}}

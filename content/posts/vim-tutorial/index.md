@@ -30,45 +30,45 @@ In Normal mode, we can also use the following commands to edit the contents of o
 
 - Cursor movement
 
-    In Normal, Visual, and Command-Line mode, you can move the cursor using `h`, `j`, `k`, and `l`.
+    In Normal, Visual, and Command-Line mode, you can move the cursor by the following key.
 
-  - `h` left arrow key
-  - `j` down arrow key
-  - `k` up arrow key
-  - `l` right arrow key
+    - `h`: left arrow key
+    - `j`: down arrow key
+    - `l`: right arrow key
+    - `k`: up arrow key
 
 - Text editing
-  - `i` enter Insert mode before the cursor.
-  - `a` enter Insert mode after the cursor.
-  - `o` insert a new line below the current line and enter Insert mode.
-  - `O` insert a new line above the current line and enter Insert mode.
-  - `x` delete the character under the cursor.
-  - `r {n}` replace the character under the cursor with the next character typed.
-  - `dd` delete the current line.
-  - `{n}dd` delete n lines starting from the current line
-  - `yy` yank (copy) the current line.
-  - `{n}yys` yank (copy) n lines starting from the current line
-  - `p` put (paste) the yanked line after the current line.
-  - `P` put (paste) the yanked line before the current line.
-  - `u` undo the previous action.
-  - `Ctrl + r` redo the previously undone action.
-  - `>>` enter a tab
-  - `<<` remove a tab
+    - `i`: enter Insert mode before the cursor.
+    - `a`: enter Insert mode after the cursor.
+    - `o`: insert a new line below the current line and enter Insert mode.
+    - `O`: insert a new line above the current line and enter Insert mode.
+    - `x`: delete the character under the cursor.
+    - `r{c}`: replace the character under the cursor with the next character typed.
+    - `dd`: delete the current line.
+    - `d{n}{arrow key}`: delete n lines counting from the current line
+    - `yy`: yank (copy) the current line.
+    - `y{n}{arrow key}`: yank n lines counting from the current line
+    - `p`: put (paste) the yanked line after the current line.
+    - `P`: put (paste) the yanked line before the current line.
+    - `u`: undo the previous action.
+    - `Ctrl + r`: redo the previously undone action.
+    - `>>`: enter a tab
+    - `<<`: remove a tab
 
 - Search
-  - `/{target}` search for the target in the file
-    - `n` find the next occurrence of the target
-    - `Shift + n` find the previous occurrence of the target
+    - `/{target}`: search for the target in the file
+    - `n`: find the next occurrence of the target
+    - `Shift + n`: find the previous occurrence of the target
 
 - Screen splitting
-  - `Ctrl + w` `v` split the screen vertically
-  - `Ctrl + w` `s` split the screen horizontally
-  - `Ctrl + w` `arrow key` switch to the corresponding screen
-  - `Ctrl + w` `+`/`-` increase/decrease the height of the screen
-  - `Ctrl + w` `>`/`<` increase/decrease the width of the screen
-  - `{number}` `Ctrl + w` `|` set the height of the screen
-  - `{number}` `Ctrl + w` `_` set the width of the screen
-  - `Ctrl + w` `=` make all screens equal in height and width
+    - `Ctrl + w` `v`: split the screen vertically
+    - `Ctrl + w` `s`: split the screen horizontally
+    - `Ctrl + w` `arrow key`: switch to the corresponding screen
+    - `Ctrl + w` `+`/`-`: increase/decrease the height of the screen
+    - `Ctrl + w` `>`/`<`: increase/decrease the width of the screen
+    - `{number}` `Ctrl + w` `|`: set the height of the screen
+    - `{number}` `Ctrl + w` `_`: set the width of the screen
+    - `Ctrl + w` `=`: make all screens equal in height and width
 
 > You must convert the text inside {} into your own content
 
@@ -77,25 +77,25 @@ In Normal mode, we can also use the following commands to edit the contents of o
 In Last Line mode, there are many useful commands that can help us configure our text editor. When we press `:` in Normal mode to enter Last Line mode, we can see a place where we can enter commands at the bottom of the editor. By entering the appropriate commands, we can configure our editor. Here are some commonly used commands:
 
 - Saving:
-  - `q` quit without saving changes
-  - `q!` force quit without saving changes
-  - `e!` force quit and keep the latest saved version
-  - `w` save changes
-  - `w!` force save changes
-  - `w {name}` save changes with a specific file name
-  - `wq` save changes and quit
-  - `wq!` force save changes and quit
+    - `q`: quit without saving changes
+    - `q!`: force quit without saving changes
+    - `e!`: force quit and keep the latest saved version
+    - `w`: save changes
+    - `w!`: force save changes
+    - `w {name}`: save changes with a specific file name
+    - `wq`: save changes and quit
+    - `wq!`: force save changes and quit
 
 - Search and Replace
 
     Replacing `g` with `gc` can be confirmed before each replacement.
-  - `s/{target}/{replace}/g` looks for target in the current line and replaces it with replace.
-  - `%s/{target}/{replace}/g` looks for target in the file and replaces it with replace.
-  - `{n1},{n2}s/{target}/{replace}/g` looks for target and replaces it with replace between lines n1 and n2.
+    - `s/{target}/{replace}/g`: looks for target in the current line and replaces it with replace.
+    - `%s/{target}/{replace}/g`: looks for target in the file and replaces it with replace.
+    - `{n1},{n2}s/{target}/{replace}/g`: looks for target and replaces it with replace between lines n1 and n2.
 
 - Cursor movement
-  - `{number}` move the cursor to the {number}-th character of the current line
-  - `$` move the cursor to the last character of the current line
+    - `{number}`: move the cursor to the {number}-th character of the current line
+    - `$`: move the cursor to the last character of the current line
 
 ### Insert Mode
 
@@ -107,8 +107,8 @@ In Visual mode, there are two different modes. One is the visual mode entered by
 
 After entering the desired mode, you can select the area to be edited using the arrow keys, and then use the commonly used commands in both modes:
 
-- `I` you will be able to edit the first line of the selected area, and upon completion, pressing `Esc` will apply the same edit to all other selected areas.
-- `x` delete the selected area
+- `I`: you will be able to edit the first line of the selected area, and upon completion, pressing `Esc` will apply the same edit to all other selected areas.
+- `x`: delete the selected area
 
 ## Configure Your Vim
 
@@ -137,20 +137,6 @@ There have some commands we usually use it. But it is hard to remember or too lo
 
 ### Let the Configuration Be Default
 
-After introducing some useful configuration commands, you might find that when you reopen Vim, your configuration is not saved. This is because Vim does not remember your settings by default. To save your configuration, you need to create a file named `.vimrc` in your home folder. Once you launch Vim, it will read the content in the `.vimrc` file and set the configurations you have specified.
-
-To create the `.vimrc` file, you can use the following example in your file and add some command you like:
-
-```bash
-set number
-set tabstop=2
-set shiftwidth=2
-set expandtab
-set autoindent
-set cursorline
-set hlsearch
-nnoremap <C-n> :NERDTreeToggle<CR>
-nnoremap <C-k> :tabnext<CR>
-```
+After introducing some useful configuration commands, you might find that when you reopen Vim, your configuration is not saved. This is because Vim does not remember your settings by default. To save your configuration, you need to create a file named `.vimrc` in your home folder and put the configuration into the file. Once you launch Vim, it will read the content in the `.vimrc` file and set the configurations you have specified.
 
 {{% footer %}}
