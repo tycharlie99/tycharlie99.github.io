@@ -1,5 +1,5 @@
 ---
-title: "[Alg Note] Binary Search"
+title: "[Note] Binary Search"
 description: "Write some note about Binary Search."
 image: img/cover.webp
 PublishDate: 2024-10-04

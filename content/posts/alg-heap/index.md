@@ -1,5 +1,5 @@
 ---
-title: "[Alg Note] Heap and Heap Sort"
+title: "[Note] Heap and Heap Sort"
 description: "Write some notes when I reviewed the heap sort."
 image: img/cover.webp
 PublishDate: 2024-08-31
