@@ -15,7 +15,7 @@ draft: false
 
 # Binary Search
 
-The binary search is the algorithm of searching that may be the first algorithm people learn. The binary search can only use the O(logN) time to find the target.
+The binary search is the algorithm of searching that may be the first algorithm people learn. The binary search can only use the **O(logN)** time to find the target.
 
 ##  Basic Binary Search
 
