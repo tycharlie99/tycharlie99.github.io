@@ -23,7 +23,7 @@ menu:
     school="National Taiwan University of Science and Technology" 
     location="Taipei, Taiwan" 
     major="Bachelor of Electornic and Computer Engineering" 
-    time="Sep. 2017 - Jan. 2022" 
+    time="Sep. 2018 - Jan. 2022" 
 >}}
 
 ## Skills
