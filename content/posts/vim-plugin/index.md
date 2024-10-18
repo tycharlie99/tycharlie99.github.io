@@ -7,9 +7,9 @@ LastMod:
 categories: ["Vim"]
 tags: ["Note"]
 keywords:
-  - vim
-  - plugins
-  - introduction
+    - vim
+    - plugins
+    - introduction
 draft: false
 ---
 

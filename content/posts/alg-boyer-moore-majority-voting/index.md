@@ -7,10 +7,10 @@ LastMod:
 categories: ["Algorithms"]
 tags: ["Note"]
 keywords:
-  - Boyer-Moore
-  - voting
-  - leetcode
-  - algorithms
+    - Boyer-Moore
+    - voting
+    - leetcode
+    - algorithms
 draft: false
 ---
 

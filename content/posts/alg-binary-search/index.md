@@ -7,9 +7,9 @@ LastMod:
 categories: ["Algorithms"]
 tags: ["Note"]
 keywords:
-  - binary search
-  - search
-  - algorithms
+    - binary search
+    - search
+    - algorithms
 draft: false
 ---
 

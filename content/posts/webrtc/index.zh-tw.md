@@ -4,13 +4,13 @@ description: "WebRTC 影像串流平台筆記"
 image: img/cover.webp
 PublishDate: 2024-04-25
 LastMod:
-categories: ["Programming"]
+categories: ["Developing"]
 tags: ["Note"]
 keywords:
-  - WebRTC
-  - RTC
-  - Socket
-  - 串流
+    - WebRTC
+    - RTC
+    - Socket
+    - 串流
 draft: false
 ---
 

@@ -4,15 +4,14 @@ description: "This is the tutorial for the beginner to learn the Web RTC and bui
 image: img/cover.webp
 PublishDate: 2024-04-25
 LastMod: 
-categories: ["Programming"]
+categories: ["Developing"]
 tags: ["Note"]
 keywords:
-  - WebRTC
-  - RTC
-  - socket
-  - streaming
+    - WebRTC
+    - RTC
+    - socket
+    - streaming
 draft: false
 ---
 
 {{< redirect url="/zh-tw/posts/webrtc/">}}
-

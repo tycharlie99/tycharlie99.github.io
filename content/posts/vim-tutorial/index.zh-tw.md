@@ -7,8 +7,8 @@ LastMod: 2023-04-10
 categories: ["Vim"]
 tags: ["Note"]
 keywords:
-  - vim
-  - tutorial
+    - vim
+    - tutorial
 draft: false
 ---
 

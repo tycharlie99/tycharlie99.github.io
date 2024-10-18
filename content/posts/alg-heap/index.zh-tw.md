@@ -7,13 +7,12 @@ LastMod:
 categories: ["Algorithms"]
 tags: ["Note"]
 keywords:
-  - heap
-  - heap sort
-  - priority_queue
-  - algorithms
-  - sorting
+    - heap
+    - heap sort
+    - priority_queue
+    - algorithms
+    - sorting
 draft: false
 ---
 
 {{< redirect url="/posts/alg-heap/" >}}
-
