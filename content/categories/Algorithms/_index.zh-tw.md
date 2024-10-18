@@ -1,8 +1,8 @@
 ---
-title: "Algorithms"
+title: "演算法"
 image: img/categories/algorithms/cover.webp
-description: "Write some algorithms notes."
+description: "紀錄演算法筆記。"
 style:
-  background: "#8ea885"
-  color: "#fff"
+    background: "#8ea885"
+    color: "#fff"
 ---

@@ -1,8 +1,8 @@
 ---
 title: "Vim"
 image: img/categories/vim/cover.webp
-# description: "Record something I think is good to share with everyone, and also for me to review these technologies when I forget it"
+description: "Something about Vim."
 style:
-  background: "#b59ffc"
-  color: "#353739"
+    background: "#6A9AB0"
+    color: "#fff"
 ---
