@@ -1,5 +1,5 @@
 ---
-title: "Archives"
+title: 紀錄
 layout: "archives"
 url: /zh-tw/archives/
 menu:

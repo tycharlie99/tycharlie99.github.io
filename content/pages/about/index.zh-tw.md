@@ -5,6 +5,7 @@ comments: false
 url: /zh-tw/about/
 menu:
   main:
+    name: 關於
     weight: 0
     params: 
       icon: user
