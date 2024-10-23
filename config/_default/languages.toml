@@ -1,6 +1,7 @@
 [en]
+languageCode = "en"
 languageName = "English"
 
 [zh-tw]
+languageCode = "zh-tw"
 languageName = "繁體中文"
-
