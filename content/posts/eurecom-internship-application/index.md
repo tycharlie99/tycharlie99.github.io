@@ -11,6 +11,7 @@ keywords:
     - Intern
     - Internship
 draft: false
+aliases: ["/post/eurecom-internship-application/"]
 ---
 
 {{< redirect url="/zh-tw/posts/eurecom-internship-application/" >}}

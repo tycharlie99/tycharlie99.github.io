@@ -10,6 +10,7 @@ keywords:
     - vim
     - tutorial
 draft: false
+aliases: ["/post/vim-tutorial/"]
 ---
 
 As a software engineer, everyone has their own preferred editor such as Vscode, Sublime Text, Notepad++, etc. These commonly used editors usually have user-friendly graphical interfaces and, thanks to the efforts of various developers, rich packages that can be used. However, "Vim", a text editor that most people will come across when using UNIX-like OS, is also the protagonist of this article.

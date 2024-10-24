@@ -10,6 +10,7 @@ keywords:
     - vim
     - tutorial
 draft: false
+aliases: ["/zh-tw/post/vim-tutorial/"]
 ---
 
 身為一位軟體工程師，每個人都有自己習慣的編輯器像是 Vscode, Sublime Text, Notepad++ 等等，這些大家常用的編輯器通常都有使用者友善的圖形化介面，也因為各個開發者的努力，在大家常用的編輯器都有豐富的套件可以使用。不過大家可能在使用一些 UNIX-like 的 OS 都會接觸到的文字編輯器 "Vim" 也是本篇的主角。

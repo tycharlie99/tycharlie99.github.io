@@ -11,6 +11,7 @@ keywords:
     - Intern
     - Internship
 draft: false
+aliases: ["/zh-tw/post/eurecom-internship-application/"]
 ---
 
 ## 申請 EURECOM 實習的步驟

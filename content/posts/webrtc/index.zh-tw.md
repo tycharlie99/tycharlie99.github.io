@@ -12,6 +12,7 @@ keywords:
     - Socket
     - 串流
 draft: false
+aliases: ["/zh-tw/post/webrtc/"]
 ---
 
 ## WebRTC

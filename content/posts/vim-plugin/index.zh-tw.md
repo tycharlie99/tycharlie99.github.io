@@ -11,6 +11,7 @@ keywords:
     - plugins
     - introduction
 draft: false
+aliases: ["/zh-tw/post/vim-plugin/"]
 ---
 
 在一些熱門的編輯器中，有許多有用的套件可用，可以加快開發時間。Vim 編輯器也有各種各樣的套件可用。在本文章中，將介紹如何使用這些套件，並分享一些有用的套件。

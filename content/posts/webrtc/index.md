@@ -12,6 +12,7 @@ keywords:
     - socket
     - streaming
 draft: false
+aliases: ["/post/webrtc/"]
 ---
 
 {{< redirect url="/zh-tw/posts/webrtc/">}}
