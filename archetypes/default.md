@@ -1,8 +1,8 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 description:
-image:
-PublishDate: {{ .Date | time.Format ":date_medium" }}
+image: "img/cover.webp"
+PublishDate: {{ .Date | time.Format "2006-01-02" }}
 LastMod: 
 categories: []
 tags: []
