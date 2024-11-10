@@ -3,7 +3,7 @@ title: "[筆記] 模運算"
 description: "Clarify the modular arithmetic. Include modular multiplicative inverse."
 image: img/cover.webp
 PublishDate: 2024-10-19
-LastMod: 
+LastMod: 2024-11-10
 categories: ["Algorithms"]
 tags: ["Note"]
 keywords:
@@ -52,5 +52,30 @@ $$ a^{p - 1} \equiv a^{-1} $$
 ## LeetCode 應用
 
 在 LeetCode 中，會利用排列組合公式計算出有多少結果，為了方便計算我們通常會先計算 $\ n!\ $ 和 $\ {n!}^{-1}\ $，因此如何計算 $\ {n!}^{-1}\ $就會是需要應用費馬小定理以及模倒數。通常在演算法題目中，為了縮小數字通常會要求取模 ($\ 10^9 + 7\ $)，因此我們在計算出 $\ n!\ $ 後即可利用其值計算 $\ {n!}^{10^9 + 7 - 2}\ $ 來找到 $\ {n!}^{-1} \$在模 $\ (10^9 +7)\ $ 之倒數。
+
+## 程式碼
+
+```cpp
+int const MOD = 1e9 + 7;
+int exp(int a, int b) {
+    int res = 1;
+    while (b > 0) {
+        if (b & 1)
+            ans = 1LL * ans * a % MOD;
+        a = 1LL * a * a % MOD;
+        b >>= 1;
+    }
+    return ans;
+}
+
+int main() {
+    int n = 10;
+    vector<int> fact (n + 1, 1), invFact(n + 1, 1);
+    for (int i = 1; i <= n; ++i) {
+        finv[i] = 1LL * finv[i - 1] * i % MOD;
+        invFact[i] = exp(finv[i], MOD - 2);
+    }
+}
+```
 
 {{% footer %}}
