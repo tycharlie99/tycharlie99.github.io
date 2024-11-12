@@ -3,7 +3,7 @@ title: "[筆記] Binary Search"
 description: "Write some note about Binary Search."
 image: img/cover.webp
 PublishDate: 2024-10-04
-LastMod: 
+LastMod: 2024-11-12
 categories: ["Algorithms"]
 tags: ["Note"]
 keywords:
@@ -48,18 +48,37 @@ int brnarySearch(vector<int> &array, int target) {
 
 如果數組中多個值等於目標值，我們希望找到大於或等於數組中的值。關鍵是，如果我們發現值等於目標，我們需要 `r = mid - 1` 來檢查是否有其他可能的索引。
 
+### 大於目標的最小值
+
 ```c++
 int binarySearch(vector<int> &array, int taarget) {
-    int l = 0, r = array.size();
+    int l = 0, r = array.size() - 1;
     while (l <= r) {
         int mid = (r - l) / 2 + l;
         if (target <= array[mid]) {
-            r = mid - 1;
+            r = mid - 1; // mid 可能為答案，尋找更小的值是否存在
         } else {
             l = mid + 1;
         }
     }
     return l;
+}
+```
+
+### 小於目標的最大值
+
+```c++
+int binarySearch(vector<int> &array, int taarget) {
+    int l = 0, r = array.size() - 1;
+    while (l <= r) {
+        int mid = (r - l) / 2 + l;
+        if (array[mid] <= target) {
+            l = mid + 1; // mid 可能為答案，尋找更大的值是否存在
+        } else {
+            r = mid - 1;
+        }
+    }
+    return r;
 }
 ```
 

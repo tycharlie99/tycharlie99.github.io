@@ -3,7 +3,7 @@ title: "[Note] Binary Search"
 description: "Write some note about Binary Search."
 image: img/cover.webp
 PublishDate: 2024-10-04
-LastMod: 
+LastMod: 2024-11-12
 categories: ["Algorithms"]
 tags: ["Note"]
 keywords:
@@ -49,18 +49,37 @@ In the situation that the target is not in the array, it means that we will meet
 
 If multiple values are equal to the target in the array, we want to find the greater than or equal to the value in the array. The point is that if we find the value equal to the target, we need the `r = mid - 1` to check whether there are other possible indexes.
 
+### Smallest Answer Larger than Target
+
 ```c++
 int binarySearch(vector<int> &array, int taarget) {
-    int l = 0, r = array.size();
+    int l = 0, r = array.size() - 1;
     while (l <= r) {
         int mid = (r - l) / 2 + l;
         if (target <= array[mid]) {
-            r = mid - 1;
+            r = mid - 1; // mid can be answer, find the smaller answer exist or not
         } else {
             l = mid + 1;
         }
     }
     return l;
+}
+```
+
+### Largest Answer Small than Target
+
+```c++
+int binarySearch(vector<int> &array, int taarget) {
+    int l = 0, r = array.size() - 1;
+    while (l <= r) {
+        int mid = (r - l) / 2 + l;
+        if (array[mid] <= target) {
+            l = mid + 1; // mid can be answer, find the larger answer exist or not
+        } else {
+            r = mid - 1;
+        }
+    }
+    return r;
 }
 ```
 
