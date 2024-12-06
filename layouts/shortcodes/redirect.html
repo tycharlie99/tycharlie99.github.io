@@ -1,19 +1,19 @@
 {{ $url := "/" }}
 {{ with .Get "url" }}
-  {{ $url = . }}
+    {{ $url = . }}
 {{ end }}
 
 <html>
-  <head>
-    <meta http-equiv="refresh" content="3; url={{ $url }}" />
-  </head>
-  <body>
-    {{ if eq .Page.Language.Lang "zh-tw" }}
-      中文版本尚未建立，將跳轉為英文版本<br>
-      如果你沒有被自動跳轉，請<a href={{ $url }}>點擊這裡</a>。
-    {{ else }}
-      The English version has not been created yet and will be redirected to the Chinese version<br>
-      If you were not automatically redirected, please <a herf={{ $url }}>click here</a>.
-    {{ end }}
-  </body>
+    <head>
+        <meta http-equiv="refresh" content="3; url={{ $url }}" />
+    </head>
+    <body>
+        {{ if eq .Page.Language.Lang "zh-tw" }}
+            中文版本尚未建立，將跳轉為英文版本<br>
+            如果你沒有被自動跳轉，請<a href={{ $url }}>點擊這裡</a>。
+        {{ else }}
+            The English version has not been created yet and will be redirected to the Chinese version<br>
+            If you were not automatically redirected, please <a herf={{ $url }}>click here</a>.
+        {{ end }}
+    </body>
 </html>

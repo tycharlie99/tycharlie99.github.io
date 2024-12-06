@@ -7,9 +7,6 @@ LastMod:
 categories: ["Algorithms"]
 tags: ["Note"]
 keywords:
-    - 模運算
-    - 模逆元
-    - 費馬小定理
     - modular arithmetic
     - modular
     - modular multiplicative inverse

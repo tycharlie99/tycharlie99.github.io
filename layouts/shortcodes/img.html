@@ -1,10 +1,10 @@
 <picture>
-  <!-- WebP -->
-  <source srcset="{{ .Get "src" | default "" | relURL }}" type="image/webp">
+    <!-- WebP -->
+    <source srcset="{{ .Get "src" | default "" | relURL }}" type="image/webp">
 
-  <!-- JPEG or PNG） -->
-  <source srcset="{{ .Get "fallback" | default "" | relURL }}" type="image/jpeg">
+    <!-- JPEG or PNG） -->
+    <source srcset="{{ .Get "fallback" | default "" | relURL }}" type="image/jpeg">
 
-  <!-- default -->
-  <img src="{{ .Get "fallback" | default "" | relURL }}" alt="{{ .Get "alt" | default "Image" }}" style="width: 100%; height: auto;">
+    <!-- default -->
+    <img src="{{ .Get "fallback" | default "" | relURL }}" alt="{{ .Get "alt" | default "Image" }}" style="width: 100%; height: auto;">
 </picture>

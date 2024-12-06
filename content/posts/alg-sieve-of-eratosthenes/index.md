@@ -1,6 +1,6 @@
 ---
 title: "[Note] Sieve of Eratosthenes"
-description:
+description: "The algorithm to find the number of prime number."
 image: "img/cover.webp"
 PublishDate: 2024-11-05
 LastMod: 

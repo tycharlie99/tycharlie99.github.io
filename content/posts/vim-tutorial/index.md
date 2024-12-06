@@ -1,6 +1,6 @@
 ---
 title: "Vim Tutorial"
-description: "This is the tutorial for the beginner to learn the Vim."
+description: "The tutorial for the beginner to learn the Vim."
 image: img/cover.webp
 PublishDate: 2023-03-21
 LastMod: 2023-04-10

@@ -1,6 +1,6 @@
 ---
 title: "[筆記] Sieve of Eratosthenes 質數判斷"
-description:
+description: "計算質數數量的演算法。"
 image: "img/cover.webp"
 PublishDate: 2024-11-05
 LastMod: 

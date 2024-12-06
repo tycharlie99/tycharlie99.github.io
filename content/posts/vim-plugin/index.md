@@ -1,6 +1,6 @@
 ---
 title: "Vim Plugin Introduction"
-description: "This is a page to intruduce the common=n vim plugin for the software developer."
+description: "Intruducing the common vim plugin."
 image: img/cover.webp
 PublishDate: 2023-03-28
 LastMod: 

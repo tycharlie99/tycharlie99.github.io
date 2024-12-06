@@ -7,6 +7,10 @@ LastMod:
 categories: ["Developing"]
 tags: ["Note"]
 keywords:
+    - tmux
+    - linux
+    - vim
+    - neovim
 draft: false
 ---
 

@@ -13,4 +13,3 @@ lineNos = false # Disable line numbers for code blocks
 lineNumbersInTable = true
 tabWidth = 2
 style = "github" # if noClasses set true, this will work or it won't.
-

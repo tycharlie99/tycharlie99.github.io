@@ -1,6 +1,6 @@
 ---
 title: "[筆記] 判斷數字是否為 3 的倍數"
-description:
+description: "判斷數字是否為 3 的倍數。"
 image: "img/cover.webp"
 PublishDate: 2024-11-03
 LastMod: 

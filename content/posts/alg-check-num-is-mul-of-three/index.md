@@ -1,6 +1,6 @@
 ---
 title: "[Note] Check a Number Is Multiple of Three or Not"
-description:
+description: "Check number if multiple of three."
 image: "img/cover.webp"
 PublishDate: 2024-11-03
 LastMod: 

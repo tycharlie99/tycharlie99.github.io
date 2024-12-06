@@ -2,6 +2,10 @@
 
 ## Some Commands When Developing
 
+- update the theme version
+    - modify the `go.mod`
+    - run the `hugo mod tidy`
+
 - hugo server: Run the local web server
     - -D: render the post is draft
     - -p: set the port about server
