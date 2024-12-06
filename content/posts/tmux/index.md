@@ -1,6 +1,6 @@
 ---
 title: "Tmux Note"
-description:
+description: "Record some useful shortcuts of tmux."
 image: "img/cover.webp"
 PublishDate: 2024-11-04
 LastMod: 

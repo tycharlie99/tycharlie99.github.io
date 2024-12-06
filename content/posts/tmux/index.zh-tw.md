@@ -1,6 +1,6 @@
 ---
 title: "Tmux 筆記"
-description:
+description: "紀錄一些有用的 tmux 指令。"
 image: "img/cover.webp"
 PublishDate: 2024-11-04
 LastMod: 
