@@ -12,8 +12,8 @@ keywords:
     - 考古
 draft: false
 ---
-# Question
 
+# Question
 
 Given an integer number, check if it is a multiple of three or not.
 
