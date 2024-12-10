@@ -10,5 +10,6 @@
     - -D: render the post is draft
     - -p: set the port about server
     - --disableFastRender: disable the fasting rendering mode
+    - --buildFuture: render the future post
 
 - hugo new content /posts/<name>: create new posts default page
