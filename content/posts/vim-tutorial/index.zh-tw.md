@@ -66,8 +66,8 @@ aliases: ["/zh-tw/post/vim-tutorial/"]
     - `Ctrl + w` `arrow key`: 切換相對應的畫面
     - `Ctrl + w` `+`/`-`: 增加 / 減少畫面的高度
     - `Ctrl + w` `>`/`<`: 增加 / 減少畫面的寬度
-    - `{number}` `Ctrl + w` `|`: 設定畫面高度
-    - `{number}` `Ctrl + w` `_`: 設定畫面寬度
+    - `{number}` `Ctrl + w` `_`: 設定畫面高度
+    - `{number}` `Ctrl + w` `|`: 設定畫面寬度
     - `Ctrl + w` `=`: 將所有畫面設定等高等寬
 
 > 須自行將{}內的文字轉換成自己的內容

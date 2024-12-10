@@ -67,8 +67,8 @@ In Normal mode, we can also use the following commands to edit the contents of o
     - `Ctrl + w` `arrow key`: switch to the corresponding screen
     - `Ctrl + w` `+`/`-`: increase/decrease the height of the screen
     - `Ctrl + w` `>`/`<`: increase/decrease the width of the screen
-    - `{number}` `Ctrl + w` `|`: set the height of the screen
-    - `{number}` `Ctrl + w` `_`: set the width of the screen
+    - `{number}` `Ctrl + w` `_`: set the height of the screen
+    - `{number}` `Ctrl + w` `|`: set the width of the screen
     - `Ctrl + w` `=`: make all screens equal in height and width
 
 > You must convert the text inside {} into your own content
