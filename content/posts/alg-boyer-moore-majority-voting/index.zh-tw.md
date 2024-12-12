@@ -1,7 +1,7 @@
 ---
 title: "[筆記] Boyer-Moore Majority Voting"
 description: "Boyer-Moore majority voting 演算法"
-image: img/cover.webp
+image: "img/cover.webp"
 PublishDate: 2024-10-16
 LastMod: 
 categories: ["Algorithms"]

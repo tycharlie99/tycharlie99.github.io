@@ -1,7 +1,7 @@
 ---
 title: "Google Drive Downloaded Files Merge"
 description: "How to deal with the multiple zip files downloaded from Google Drive."
-image: img/cover.webp
+image: "img/cover.webp"
 PublishDate: 2024-10-18
 LastMod: 
 categories: ["Tech"]

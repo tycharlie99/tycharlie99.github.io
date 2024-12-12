@@ -1,7 +1,7 @@
 ---
 title: "[筆記] KMP 演算法"
 description: "KMP 演算法學習筆記"
-image: # "img/cover.webp"
+image: "img/cover.webp"
 PublishDate: 2024-12-09
 LastMod: 
 categories: ["Algorithms"]

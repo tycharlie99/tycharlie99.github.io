@@ -1,7 +1,7 @@
 ---
 title: "Google 雲端硬碟下載檔案合併"
 description: "如何處理從 Google Drive 下載的多個 zip 檔案。"
-image: img/cover.webp
+image: "img/cover.webp"
 PublishDate: 2024-10-18
 LastMod: 
 categories: ["Tech"]

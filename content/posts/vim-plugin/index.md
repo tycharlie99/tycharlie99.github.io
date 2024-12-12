@@ -1,7 +1,7 @@
 ---
 title: "Vim Plugin Introduction"
 description: "Intruducing the common vim plugin."
-image: img/cover.webp
+image: "img/cover.webp"
 PublishDate: 2023-03-28
 LastMod: 
 categories: ["Vim"]

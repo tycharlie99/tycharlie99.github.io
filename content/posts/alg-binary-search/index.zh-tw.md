@@ -1,7 +1,7 @@
 ---
 title: "[筆記] Binary Search"
 description: "Write some note about Binary Search."
-image: img/cover.webp
+image: "img/cover.webp"
 PublishDate: 2024-10-04
 LastMod: 2024-11-12
 categories: ["Algorithms"]

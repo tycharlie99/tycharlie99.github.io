@@ -1,7 +1,7 @@
 ---
 title: "[Note] Modular Arithmetic"
 description: "Clarify the modular arithmetic. Include modular multiplicative inverse."
-image: img/cover.webp
+image: "img/cover.webp"
 PublishDate: 2024-10-19
 LastMod: 
 categories: ["Algorithms"]

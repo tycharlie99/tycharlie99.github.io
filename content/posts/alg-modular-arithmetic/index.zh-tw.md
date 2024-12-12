@@ -1,7 +1,7 @@
 ---
 title: "[筆記] 模運算"
 description: "Clarify the modular arithmetic. Include modular multiplicative inverse."
-image: img/cover.webp
+image: "img/cover.webp"
 PublishDate: 2024-10-19
 LastMod: 2024-11-10
 categories: ["Algorithms"]

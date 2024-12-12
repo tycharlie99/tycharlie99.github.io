@@ -1,7 +1,7 @@
 ---
 title: "法國 EURECOM 實習申請"
 description: "法國 EURECOM 實習申請流程與注意事項"
-image: img/cover.webp
+image: "img/cover.webp"
 PublishDate: 2023-03-09
 LastMod: 2023-04-13
 categories: ["EURECOM"]

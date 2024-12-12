@@ -1,10 +1,10 @@
 ---
-title: "[Note] KMP Algortithms"
+title: "[Note] KMP Algorithms"
 description: "KMP algorithms learning note."
-image: # "img/cover.webp"
+image: "img/cover.webp"
 PublishDate: 2024-12-09
 LastMod: 
-categories: ["Algortithms"]
+categories: ["Algorithms"]
 tags: ["Note"]
 keywords:
     - KMP
@@ -37,7 +37,7 @@ vector<int> helper (string &str, string &pattern) {
 }
 ```
 
-## KMP Algortithms
+## KMP Algorithms
 
 Is there anything we can improve on the original brute-force solution? When we find that the next letter is different from `str`, we should think about whether there is something that can be used in the string that has been compared before. In 1977, James H. Morris, Donald Knuth, and Vaughan Pratt published the Knuth-Morris-Pratt algorithm, referred to as the KMP algorithm.
 

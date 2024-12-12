@@ -1,7 +1,7 @@
 ---
 title: "Vim 學習筆記"
 description: "新手 Vim 教學"
-image: img/cover.webp
+image: "img/cover.webp"
 PublishDate: 2023-03-21
 LastMod: 2023-04-10
 categories: ["Vim"]

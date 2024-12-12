@@ -1,7 +1,7 @@
 ---
 title: "[Note] Boyer-Moore Majority Voting"
 description: "The Boyer-Moore majority voting."
-image: img/cover.webp
+image: "img/cover.webp"
 PublishDate: 2024-10-16
 LastMod: 
 categories: ["Algorithms"]
