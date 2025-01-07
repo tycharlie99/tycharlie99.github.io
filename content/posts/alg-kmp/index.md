@@ -3,7 +3,7 @@ title: "[Note] KMP Algorithms"
 description: "KMP algorithms learning note."
 image: "img/cover.webp"
 PublishDate: 2024-12-09
-LastMod: 
+LastMod: 2025-01-07
 categories: ["Algorithms"]
 tags: ["Note"]
 keywords:
@@ -72,7 +72,7 @@ How to create LPS table for `pattern`? We can compare `pattern` to ourselves and
 ```
 0012x
 ababc
-    ababcababcabc
+  ababcababcabc
 ```
 
 After comparison, it is found that `pattern[4]` is different from `pattern[0]`, so the comparison continues.

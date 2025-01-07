@@ -3,7 +3,7 @@ title: "[筆記] KMP 演算法"
 description: "KMP 演算法學習筆記"
 image: "img/cover.webp"
 PublishDate: 2024-12-09
-LastMod: 
+LastMod: 2025-01-07
 categories: ["Algorithms"]
 tags: ["Note"]
 keywords:
@@ -72,7 +72,7 @@ abcabcasdasdf
 ```
 0012x
 ababc
-    ababcababcabc
+  ababcababcabc
 ```
 
 經過比較後，發現 `pattern[4]` 與 `pattern[0]` 不一樣，因此繼續往後比較。
