@@ -42,4 +42,4 @@ menu:
 
 ## Contact
 
-Email: jkcharlie6679@gmail.com
+Email: tycharlie.c@gmail.com

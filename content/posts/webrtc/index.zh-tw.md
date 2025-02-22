@@ -74,7 +74,7 @@ const peerConnection = new RTCPeerConnection(configuration);
 
 ## 程式碼
 
-[github](https://github.com/jkcharlie6679/WebRTC)
+[github](https://github.com/tycharlie99/WebRTC)
 
 ### Reference
 

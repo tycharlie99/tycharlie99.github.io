@@ -1,4 +1,4 @@
-module github.com/jkcharlie6679/jkcharlie6679.github.io
+module github.com/tycharlie99/tycharlie99.github.io
 
 go 1.23.2
 
