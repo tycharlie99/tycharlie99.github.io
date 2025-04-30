@@ -14,7 +14,7 @@ keywords:
 draft: false
 ---
 
-# 問題
+## 問題
 
 您可能會看到一些問題要求計算某人的選票**超過** 1/2 或 1/3。直覺的解決方案是為每個人計票。然而，空間複雜度將為 **O(N)**。是否有任何解決方案僅使用 **O(1)** 來解決空間複雜度？這將是 Boyer-Moore Majority Voting 演算法。
 
@@ -31,6 +31,8 @@ draft: false
 如上所述，當使用 Boyer-Moore majority voting 演算法時，我們需要找到 `n` 個不同的票並刪除或忽略它們。儲存 `n` 票僅花費 O(1) 空間。
 
 以下程式碼計算得票數超過了 `floor(n/3)` 的候選人。這是來自 Leetcode 的問題 **[229. Majority Element II](https://leetcode.com/problems/majority-element-ii/)**。
+
+## 程式碼
 
 ```cpp
 vector<int> majorityElement(vector<int> &nums) {

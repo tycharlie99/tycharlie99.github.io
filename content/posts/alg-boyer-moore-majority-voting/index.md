@@ -14,7 +14,7 @@ keywords:
 draft: false
 ---
 
-# Question
+## Question
 
 You may see some questions asking for counting the vote of someone is **over than** 1/2 or 1/3. The intuition solution is counting the votes for everyone. However, the space complexity will be **O(N)**. Is there have any solution only use the **O(1)** for space complexity? It will be the Boyer-Moore majority voting algorithms.
 
@@ -31,6 +31,8 @@ For example, we have three candidates (A, B, C), and A is the candidate who gets
 As the metioned above, when using Boyer-Moore majority voting algorithms, we need to find the `n` of different and remove or ignore them. For storing the `n` votes only spends O(1) space.
 
 The following code finds the votes are more than the `floor(n/3)` candidate. Also the question from Leetcode **[229. Majority Element II](https://leetcode.com/problems/majority-element-ii/)**.
+
+## Code
 
 ```cpp
 vector<int> majorityElement(vector<int> &nums) {
