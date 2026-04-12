@@ -48,15 +48,6 @@ jobs:
         with:
           node-version: "20"
           cache: ${{ steps.detect-package-manager.outputs.manager }}
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
-        with:
-          # Automatically inject basePath in your Next.js config file, and disable
-          # server side image optimization (unoptimized: true).
-          #
-          # You may need this if you are NOT using a custom domain.
-          # If you ARE using a custom domain, you can remove this step or set it manually.
-          static_site_generator: next
       - name: Install dependencies
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
       - name: Build with Next.js
