@@ -1,6 +1,7 @@
 {
   "name": "tycharlie-next",
   "version": "0.1.0",
+  "license": "MIT",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,12 +10,26 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "next": "16.1.6",
+    "@shikijs/rehype": "^4.0.2",
+    "gray-matter": "^4.0.3",
+    "image-size": "^2.0.2",
+    "katex": "^0.16.45",
+    "lucide-react": "^0.577.0",
+    "next": "^16.2.0",
+    "next-themes": "^0.4.6",
     "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "react-dom": "19.2.3",
+    "react-icons": "^5.6.0",
+    "rehype-katex": "^7.0.1",
+    "rehype-stringify": "^10.0.1",
+    "remark": "^15.0.1",
+    "remark-math": "^6.0.0",
+    "remark-rehype": "^11.1.2",
+    "unist-util-visit": "^5.1.0"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
+    "@tailwindcss/typography": "^0.5.19",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",

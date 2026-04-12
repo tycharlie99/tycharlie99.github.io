@@ -1,26 +1,99 @@
 @import "tailwindcss";
+@plugin "@tailwindcss/typography";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: oklch(100% 0 0);      /* #ffffff */
+  --foreground: oklch(26.31% 0.035 264.39); /* #0f172a */
+  --border: oklch(92.9% 0.013 255.22);     /* #e2e8f0 */
+  --muted: oklch(54.91% 0.023 252.81);     /* #64748b */
+  --subtle: oklch(77.02% 0.014 255.56);    /* low-contrast text */
+  --accent: oklch(62.32% 0.159 256.39);    /* #3b82f6 */
+  --surface: oklch(98.46% 0.004 255.46);   /* subtle panel */
+  --surface-elevated: oklch(100% 0 0);     /* raised panel */
+  --overlay: oklch(0% 0 0 / 0.5);          /* modal backdrop */
+
+  color-scheme: light;
+  scrollbar-gutter: stable;
 }
 
+.dark {
+  --background: oklch(12.89% 0.038 272.78); /* #020617 */
+  --foreground: oklch(96.7% 0.011 254.3);    /* #f1f5f9 */
+  --border: oklch(27.87% 0.035 264.43);    /* #1e293b */
+  --muted: oklch(71.07% 0.027 254.26);     /* #94a3b8 */
+  --subtle: oklch(45.05% 0.024 264.18);    /* low-contrast text */
+  --accent: oklch(73.53% 0.101 254.12);    /* #60a5fa */
+  --surface: oklch(18.26% 0.034 268.55);   /* subtle panel */
+  --surface-elevated: oklch(21.51% 0.034 267.03); /* raised panel */
+  --overlay: oklch(0% 0 0 / 0.6);          /* modal backdrop */
+  color-scheme: dark;
+}
+
+/* --- Typography Definitions --- */
+.prose {
+  max-width: 75ch; /* Modern comfortable reading width */
+  --tw-prose-body: var(--foreground);
+  --tw-prose-headings: var(--foreground);
+  --tw-prose-links: var(--accent);
+  --tw-prose-bold: var(--foreground);
+  --tw-prose-quotes: var(--foreground);
+  --tw-prose-quote-borders: var(--border);
+  --tw-prose-pre-bg: var(--surface);
+  
+  /* Optimize link underline distance */
+  text-underline-offset: 0.25em;
+}
+
+/* --- Shiki Syntax Highlighting Toggle --- */
+.prose pre, 
+.prose pre span {
+  color: var(--shiki-light);
+}
+
+.dark .prose pre, 
+.dark .prose pre span {
+  color: var(--shiki-dark) !important;
+}
+
+/* --- Inline Code Style Fix (Remove double borders) --- */
+.prose :where(code):not(:where([class~="not-prose"], [class~="not-prose"] *, pre code)) {
+  background-color: var(--surface) !important;
+  color: var(--foreground);
+  padding: 0.2em 0.4em;
+  border-radius: 0.375em;
+}
+
+/* Remove default quotes from Inline code */
+.prose :where(code):not(:where([class~="not-prose"], [class~="not-prose"] *))::before,
+.prose :where(code):not(:where([class~="not-prose"], [class~="not-prose"] *))::after {
+  content: none;
+}
+
+/* --- Tailwind Theme Configuration --- */
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-border: var(--border);
+  --color-muted: var(--muted);
+  --color-subtle: var(--subtle);
+  --color-surface: var(--surface);
+  --color-surface-elevated: var(--surface-elevated);
+  --color-overlay: var(--overlay);
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui;
+  --font-mono: var(--font-geist-mono), ui-monospace, SFMono-Regular;
+  --variant-dark: :where(.dark, .dark &);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+/* --- Base Layer Fixes --- */
+@layer base {
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-geist-sans);
+    transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out;
   }
-}
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  *, ::after, ::before {
+    border-color: var(--border);
+  }
 }
