@@ -69,6 +69,116 @@
   content: none;
 }
 
+.prose figure.post-image-figure {
+  margin: 2rem 0;
+}
+
+.prose .post-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  border-radius: 0.75rem;
+  object-fit: contain;
+  cursor: zoom-in;
+}
+
+.prose .post-image-row {
+  display: grid;
+  gap: 1rem;
+  align-items: start;
+  margin: 2rem 0;
+}
+
+.prose .post-image-gallery {
+  margin: 2rem 0;
+}
+
+.prose .post-image-gallery .post-image-row:first-child {
+  margin-top: 0;
+}
+
+.prose .post-image-gallery .post-image-row:last-child {
+  margin-bottom: 0;
+}
+
+.prose .post-image-row .post-image-figure {
+  margin: 0;
+  min-width: 0;
+}
+
+.prose .post-image-row-1 {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.prose .post-image-row-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.prose .post-image-row-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+@media (max-width: 768px) {
+  .prose .post-image-row,
+  .prose .post-image-row-2,
+  .prose .post-image-row-3 {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+.post-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  background: var(--overlay);
+  backdrop-filter: blur(8px);
+}
+
+.post-lightbox-figure {
+  margin: 0;
+  max-width: min(96vw, 1200px);
+  max-height: 90vh;
+}
+
+.post-lightbox-image {
+  display: block;
+  max-width: 100%;
+  max-height: calc(90vh - 3rem);
+  width: auto;
+  height: auto;
+  border-radius: 1rem;
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.35);
+}
+
+.post-lightbox-caption {
+  margin-top: 0.75rem;
+  color: oklch(98% 0 0);
+  text-align: center;
+  font-size: 0.95rem;
+}
+
+.post-lightbox-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 0;
+  border-radius: 9999px;
+  background: oklch(100% 0 0 / 0.14);
+  color: oklch(98% 0 0);
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+
 /* --- Tailwind Theme Configuration --- */
 @theme inline {
   --color-background: var(--background);

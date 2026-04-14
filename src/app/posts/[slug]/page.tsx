@@ -1,6 +1,7 @@
 import { getPostData, getSortedPostsData } from '@/lib/posts';
 import type { Metadata } from "next";
 import DateFormatter from '@/components/DateFormatter';
+import PostContent from '@/components/PostContent';
 import 'katex/dist/katex.min.css';
 import Link from "next/link";
 import { MdCalendarToday, MdUpdate } from 'react-icons/md';
@@ -57,10 +58,7 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
         </header>
 
         {/* post content */}
-        <div
-          className="prose max-w-none"
-          dangerouslySetInnerHTML={{ __html: postData.contentHtml }}
-        />
+        <PostContent contentHtml={postData.contentHtml} />
         {/* post categories */}
         {postData.categories && postData.categories.length > 0 && (
           <div className="mt-12 flex flex-wrap items-center gap-3">
