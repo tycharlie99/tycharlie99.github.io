@@ -10,10 +10,22 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: post.lastModified || post.publishedDate,
   }));
 
+  const categories = Array.from(
+    new Set(
+      posts.flatMap((post) => post.categories || [])
+        .filter((category): category is string => typeof category === 'string' && category.length > 0)
+    )
+  );
+
+  const categoryEntries: MetadataRoute.Sitemap = categories.map((category) => ({
+    url: `${baseUrl}/categories/${category.toLowerCase()}`,
+    lastModified: new Date(),
+  }));
+
   const routes = ['', '/about', '/archives', '/categories'].map((route) => ({
     url: `${baseUrl}${route}`,
     lastModified: new Date(),
   }));
 
-  return [...routes, ...postEntries];
+  return [...routes, ...postEntries, ...categoryEntries];
 }

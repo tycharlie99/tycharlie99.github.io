@@ -1,5 +1,14 @@
 import Link from "next/link";
 import { getSortedPostsData } from "@/lib/posts";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Archives",
+  description: "Browse the archive of posts by year.",
+  alternates: {
+    canonical: "/archives",
+  },
+};
 
 export default function ArchivesPage() {
   const allPosts = getSortedPostsData();

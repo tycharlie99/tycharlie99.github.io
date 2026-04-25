@@ -1,6 +1,6 @@
 ---
-title: "Apply For the EURECOM Internship"
-description: "This page is for the student apply the internship for EURECOM."
+title: "Applying for the EURECOM Internship"
+description: "A step-by-step guide to applying for the EURECOM internship."
 publishedDate: 2023-03-09
 lastModified: 2023-04-13
 categories: []
@@ -12,16 +12,12 @@ keywords:
     - 實習
     - 法國
 draft: false
-aliases: ["/post/eurecom-internship-application/"]
 ---
-
-# 申請 EURECOM 實習
-
 ## 申請 EURECOM 實習的步驟
 
 - **請老師幫你與 EURECOM 詢問實習機會**
 
-  準備英文履歷給老師，麻煩老師幫忙與 ERUECOM 的教授訊問是否有實習的機會
+  準備英文履歷給老師，麻煩老師幫忙與 EURECOM 的教授詢問是否有實習的機會
 
 - **EURECOM HR 將會寄送 2B-STAGIAIRE_Formulaire accueil 檔案給你填寫基本資料**
 

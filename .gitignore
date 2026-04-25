@@ -4,6 +4,10 @@
 # Generated Assets (Automatically copied from posts folder during build/dev)
 public/assets
 
+# Generated redirect pages and their cleanup manifest
+public/.static-redirects-manifest.json
+public/post/
+
 # dependencies
 /node_modules
 /.pnp

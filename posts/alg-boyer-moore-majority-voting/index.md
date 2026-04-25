@@ -1,6 +1,6 @@
 ---
-title: "[Note] Boyer-Moore Majority Voting"
-description: "Boyer-Moore majority voting algorithms to find the candidate who gets more than 1/3 votes."
+title: "Boyer-Moore Majority Voting"
+description: "How the Boyer-Moore majority voting algorithm finds elements that appear more than n/2 or n/3 times."
 publishedDate: 2024-10-16
 categories: ["Algorithms"]
 tags: ["LeetCode"]
@@ -11,14 +11,11 @@ keywords:
     - algorithms
 draft: false
 ---
-
-# Boyer-Moore Majority Voting
-
 The Boyer-Moore majority voting algorithm is a well-known algorithm used to find the majority element in an array. The majority element is defined as the element that appears more than `n/2` times in the array, where `n` is the size of the array. This algorithm can also be adapted to find elements that appear more than `n/k` times for any integer `k`.
 
 ## Question
 
-You may see some questions asking for counting the vote of someone is **over than** 1/2 or 1/3. The intuition solution is counting the votes for everyone. However, the space complexity will be **O(N)**. Is there have any solution only use the **O(1)** for space complexity? It will be the Boyer-Moore majority voting algorithms.
+You may see some questions asking whether someone's vote count is **more than** 1/2 or 1/3. The intuitive solution is counting the votes for everyone. However, the space complexity will be **O(N)**. Is there any solution that only uses **O(1)** space complexity? That is where the Boyer-Moore majority voting algorithm is useful.
 
 ## Basic Idea
 
@@ -26,11 +23,11 @@ If we know there is at least one person who gets the 1/2, 1/3, or 1/n votes, we 
 
 For example, we have three candidates (A, B, C), and A is the candidate who gets at least 1/2 vote. So, we can remove 2 different votes from different candidates, and it will not affect the A has at least 1/n votes.
 
-- Remove (B, C): It will not affect that A is over 1/2. It will let A's percentage grow up.
+- Remove (B, C): It will not affect the fact that A is over 1/2. It will let A's percentage grow.
 - Remove (A, B): Remove one of the most one and one of the other. It will not affect the truth A is more than 1/2.
 - Remove (A, C): Remove one of the most one and one of the other. It will not affect the truth A is more than 1/2.
 
-As the metioned above, when using Boyer-Moore majority voting algorithms, we need to find the `n` of different and remove or ignore them. For storing the `n` votes only spends O(1) space.
+As mentioned above, when using Boyer-Moore majority voting algorithms, we need to find the `n` different votes and remove or ignore them. Storing these `n` votes only takes O(1) space.
 
 The following code finds the votes are more than the `floor(n/3)` candidate. Also the question from Leetcode **[229. Majority Element II](https://leetcode.com/problems/majority-element-ii/)**.
 

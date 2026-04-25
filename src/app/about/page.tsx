@@ -1,4 +1,13 @@
 import React from 'react';
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About",
+  description: "About Tsung-Yu Chan, including experience, education, skills, and projects.",
+  alternates: {
+    canonical: "/about",
+  },
+};
 
 function SectionHeading({ children }: { children: React.ReactNode }) {
   return (

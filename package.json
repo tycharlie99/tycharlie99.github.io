@@ -4,6 +4,9 @@
   "license": "MIT",
   "private": true,
   "scripts": {
+    "redirects:generate": "node scripts/generate-static-redirects.mjs",
+    "prebuild": "npm run redirects:generate",
+    "predev": "npm run redirects:generate",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -23,6 +26,7 @@
     "rehype-katex": "^7.0.1",
     "rehype-stringify": "^10.0.1",
     "remark": "^15.0.1",
+    "remark-gfm": "^4.0.1",
     "remark-math": "^6.0.0",
     "remark-rehype": "^11.1.2",
     "unist-util-visit": "^5.1.0"

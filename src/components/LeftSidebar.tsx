@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
-import { Home, Archive, Mail, User, Github, Linkedin } from 'lucide-react';
+import { Home, Archive, Mail, User, Github, Linkedin, FolderTree } from 'lucide-react';
 import { usePathname } from 'next/navigation';
 import ThemeToggle from './ThemeToggle';
 
@@ -11,6 +11,7 @@ export default function LeftSidebar() {
   const navItems = [
     { name: 'Home', href: '/', icon: Home },
     { name: 'Archives', href: '/archives', icon: Archive },
+    { name: 'Categories', href: '/categories', icon: FolderTree },
     { name: 'About', href: '/about', icon: User },
   ];
 

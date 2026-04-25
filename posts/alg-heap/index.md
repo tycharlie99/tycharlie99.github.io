@@ -1,6 +1,6 @@
 ---
-title: "[Note] Heap and Heap Sort"
-description: "Heap and Heap Sort in C++ with STL and operation."
+title: "Heap and Heap Sort"
+description: "An overview of heaps and heap sort in C++, including core operations and STL usage."
 publishedDate: 2024-08-31
 lastModified: 2025-08-12
 categories: ["Algorithms"]
@@ -13,9 +13,6 @@ keywords:
     - sorting
 draft: false
 ---
-
-# Heap and Heap Sort
-
 The heap sort uses the "Complete Binary Tree" to maintain the data structure. In the heap sort, there are two common heap sorts: one is "minimum heap", and the other is "maximum heap". The idea of these two is that the root node of the binary tree will be the minimum or the maximum of all nodes.
 
 ![Minimum heap](img/min_heap.webp) ![Maximum heap](img/max_heap.webp)

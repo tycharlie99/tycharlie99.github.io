@@ -1,6 +1,6 @@
 ---
-title: "[Note] Sieve of Eratosthenes"
-description: "The algorithm to find the number of prime number."
+title: "Sieve of Eratosthenes"
+description: "How the Sieve of Eratosthenes efficiently finds prime numbers up to a given limit."
 publishedDate: 2024-11-05
 lastModified: 2025-08-12
 categories: ["Algorithms"]
@@ -12,9 +12,6 @@ keywords:
     - algorithms
 draft: false
 ---
-
-# Sieve of Eratosthenes
-
 The Sieve of Eratosthenes is an ancient algorithm used to find all prime numbers up to a specified integer. It is one of the most efficient ways to find all primes smaller than a given number, especially when that number is large.
 
 ## Question

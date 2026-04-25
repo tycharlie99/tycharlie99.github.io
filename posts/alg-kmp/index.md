@@ -1,6 +1,6 @@
 ---
-title: "[Note] KMP Algorithms"
-description: "KMP algorithms for string matching."
+title: "Knuth-Morris-Pratt Algorithm"
+description: "A practical introduction to the Knuth-Morris-Pratt algorithm for string matching."
 publishedDate: 2024-12-09
 lastModified: 2025-01-07
 categories: ["Algorithms"]
@@ -12,9 +12,6 @@ keywords:
     - leetcode
 draft: false
 ---
-
-# KMP Algorithms
-
 KMP (Knuth-Morris-Pratt) algorithms are a classic algorithm for string matching. It is widely used in various applications, such as text search engines, DNA sequence analysis, and more. The KMP algorithm improves the efficiency of substring searching by avoiding unnecessary comparisons.
 
 ## Question

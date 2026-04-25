@@ -23,6 +23,9 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     title: postData.title,
     description: `${postData.description}` || `Read more about ${postData.title}.`,
     keywords: postData.keywords || [],
+    alternates: {
+      canonical: `/posts/${slug}`,
+    },
   };
 }
 

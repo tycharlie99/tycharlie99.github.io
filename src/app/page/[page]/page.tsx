@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { getSortedPostsData } from '@/lib/posts';
 import DateFormatter from '@/components/DateFormatter';
 import { notFound } from 'next/navigation';
+import type { Metadata } from "next";
 
 const POSTS_PER_PAGE = 10; // Show 10 posts per page
 
@@ -14,6 +15,18 @@ export async function generateStaticParams() {
   return Array.from({ length: totalPages }, (_, i) => ({
     page: (i + 1).toString(),
   }));
+}
+
+export async function generateMetadata({ params }: { params: Promise<{ page: string }> }): Promise<Metadata> {
+  const { page } = await params;
+  const pageNum = Number.parseInt(page, 10);
+
+  return {
+    title: pageNum > 1 ? `Page ${pageNum}` : undefined,
+    alternates: {
+      canonical: pageNum > 1 ? `/page/${pageNum}` : "/",
+    },
+  };
 }
 
 export default async function Page({ params }: { params: Promise<{ page: string }> }) {

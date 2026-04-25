@@ -1,6 +1,6 @@
 ---
-title: "Vim Plugin Introduction"
-description: "Intruducing the common vim plugin."
+title: "Introduction to Vim Plugins"
+description: "An introduction to common Vim plugins and how to manage them with vim-plug."
 publishedDate: 2023-03-28
 categories: ["Vim"]
 tags: []
@@ -9,11 +9,7 @@ keywords:
     - plugins
     - introduction
 draft: false
-aliases: ["/post/vim-plugin/"]
 ---
-
-# Vim Plugin Introduction
-
 In some popular code editors, there are many useful plugins available that can significantly speed up the development process for developers. Vim editor also has a wide variety of plugins available. In this blog post, I will introduce how to use these plugins and share some of the most useful ones.
 
 ## Plugin Manager
@@ -22,7 +18,7 @@ Several popular plugin managers, including [`Pathogen`](https://github.com/tpope
 
 ### vim-plug
 
-According to the user guide from the [`vim-plug`](https://github.com/junegunn/vim-plug), you can use the following command to install it. After running the command, you can see there will have file under the `~/.vim/autoload/`.
+According to the user guide from [`vim-plug`](https://github.com/junegunn/vim-plug), you can use the following command to install it. After running the command, you will see a file under `~/.vim/autoload/`.
 
 ```bash
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \

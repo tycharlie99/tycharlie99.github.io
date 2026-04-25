@@ -17,11 +17,15 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://tycharlie.com"),
   title: {
     default: "TsungYu Chan | Personal Blog",
     template: "%s | TsungYu Chan",
   },
   description: "TsungYu Chan's personal blog about web development, programming, and technology.",
+  alternates: {
+    canonical: "/",
+  },
 };
 
 export default function RootLayout({

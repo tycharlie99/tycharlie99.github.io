@@ -1,6 +1,6 @@
 ---
-title: "[Note] Binary Search"
-description: "Main idea of binary search and some common scenarios with c++ code."
+title: "Binary Search"
+description: "An introduction to binary search, common variants, and C++ implementations."
 publishedDate: 2024-10-04
 lastModified: 2025-08-12
 categories: ["Algorithms"]
@@ -11,9 +11,6 @@ keywords:
     - algorithms
 draft: false
 ---
-
-# Binary Search
-
 The binary search is the algorithm of searching that may be the first algorithm people learn. The binary search can only use the **O(logN)** time to find the target.
 
 ##  Basic Binary Search
@@ -21,7 +18,7 @@ The binary search is the algorithm of searching that may be the first algorithm 
 For some basic scenarios, we want to find the index of the target value in the vector; if we cannot, then return -1. We use the variable `l` and `r` to represent the interval that we can find, and continue to narrow the range until there is no number in the interval. In cpp, we use the `int` to store the current index, if `(r - l)` is the odd number, it will be the `floor(r - l)`.
 
 ```c++
-int brnarySearch(vector<int> &array, int target) {
+int binarySearch(vector<int> &array, int target) {
   int l = 0, r = array.size() - 1;
   while (l <= r) {
     int mid = (r - l) / 2 + l;
@@ -51,7 +48,7 @@ If multiple values are equal to the target in the array, we want to find the gre
 ### Smallest Answer Larger than Target
 
 ```c++
-int binarySearch(vector<int> &array, int taarget) {
+int binarySearch(vector<int> &array, int target) {
   int l = 0, r = array.size() - 1;
   while (l <= r) {
     int mid = (r - l) / 2 + l;
@@ -65,10 +62,10 @@ int binarySearch(vector<int> &array, int taarget) {
 }
 ```
 
-### Largest Answer Small than Target
+### Largest Answer Smaller than Target
 
 ```c++
-int binarySearch(vector<int> &array, int taarget) {
+int binarySearch(vector<int> &array, int target) {
   int l = 0, r = array.size() - 1;
   while (l <= r) {
     int mid = (r - l) / 2 + l;
@@ -81,4 +78,3 @@ int binarySearch(vector<int> &array, int taarget) {
   return r;
 }
 ```
-

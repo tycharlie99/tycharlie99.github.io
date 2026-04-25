@@ -1,6 +1,6 @@
 ---
-title: "Tmux Note"
-description: "Some useful shortcuts of tmux."
+title: "Tmux Notes"
+description: "Notes on tmux basics, sessions, windows, panes, and useful shortcuts."
 publishedDate: 2024-11-04
 lastModified:
 categories: ["Developing"]
@@ -12,9 +12,6 @@ keywords:
     - neovim
 draft: false
 ---
-
-# Tmux Notes
-
 In Linux, tmux can help us manage our windows conveniently, and will not close the running program due to jumping out of the window, so it can manage the terminal well.
 
 There are three parts in tmux: session, window and pane. There can be multiple sessions in a server, multiple windows in a session, and multiple panes in the same window.

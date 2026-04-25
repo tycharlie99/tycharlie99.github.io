@@ -1,6 +1,6 @@
 ---
-title: "WebRTC Tutorial"
-description: "The tutorial for the beginner to learn the WebRTC and build a simple website with WebRTC."
+title: "Building a WebRTC App with Socket.IO"
+description: "A practical guide to building a simple WebRTC app with Socket.IO for signaling."
 publishedDate: 2024-04-25
 categories: ["Developing"]
 tags: []
@@ -10,12 +10,8 @@ keywords:
     - socket
     - streaming
 draft: false
-aliases: ["/post/webrtc/"]
 ---
-
-# WebRTC and Socket Tutorial
-
-WebRTC 全名為 Web Real-Time Communication，是一個 Google 在 2011 開源的專案，獲得 Apple、Google、Microsoft 與 Mozilla 等的支援，提供瀏覽器即時語音以及視訊的 API (Applicatino Programming Interface)，透過 P2P (peer-to-peer) 的方式進行連線 。
+WebRTC 全名為 Web Real-Time Communication，是一個 Google 在 2011 開源的專案，獲得 Apple、Google、Microsoft 與 Mozilla 等的支援，提供瀏覽器即時語音以及視訊的 API (Application Programming Interface)，透過 P2P (peer-to-peer) 的方式進行連線 。
 
 ## WebRTC 常用的 API
 

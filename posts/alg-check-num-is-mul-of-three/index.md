@@ -1,6 +1,6 @@
 ---
-title: "[Note] Check a Number Is Multiple of Three or Not"
-description: "Check number if multiple of three in O(1)."
+title: "Checking Whether a Number Is a Multiple of Three"
+description: "A quick explanation of how to check whether a number is a multiple of three in O(1)."
 publishedDate: 2024-11-03
 categories: ["Algorithms"]
 tags: []
@@ -10,14 +10,11 @@ keywords:
     - 考古
 draft: false
 ---
-
-# Check a Number Is Multiple of Three or Not
-
 Given an integer number, check if it is a multiple of three or not.
 
 ## Using Division and Mod
 
-The easy mathod to solve this problem is using mod to check the remainder.
+The easy method to solve this problem is using mod to check the remainder.
 
 - Time Complexity: O(1)
 - Space Complexity: O(1)

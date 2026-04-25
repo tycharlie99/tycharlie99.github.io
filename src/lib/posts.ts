@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 import { remark } from 'remark';
+import remarkGfm from 'remark-gfm';
 import remarkMath from 'remark-math';
 import remarkRehype from 'remark-rehype';
 import rehypeKatex from 'rehype-katex';
@@ -224,8 +225,9 @@ export async function getPostData(id: string) {
 
   const processedContent = await remark()
     .use(remarkMath)            // 1. Detect math syntax like $...$ and $$...$$
-    .use(remarkRehype)          // 2. Transform Remark (Markdown AST) into Rehype (HTML AST)
-    .use(rehypeImageProcessor, id) // 3. Handle images (copy & rewrite paths)
+    .use(remarkGfm)             // 2. Enable GFM syntax such as tables
+    .use(remarkRehype)          // 3. Transform Remark (Markdown AST) into Rehype (HTML AST)
+    .use(rehypeImageProcessor, id) // 4. Handle images (copy & rewrite paths)
     .use(rehypeShiki, {
       themes: {
         light: 'github-light',

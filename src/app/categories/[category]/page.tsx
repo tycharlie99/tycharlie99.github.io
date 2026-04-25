@@ -2,6 +2,7 @@ import { getSortedPostsData } from "@/lib/posts"; // Please ensure the path is c
 import Link from "next/link";
 import React from "react";
 import DateFormatter from "@/components/DateFormatter";
+import type { Metadata } from "next";
 
 // 1. Generate static route parameters (statically generate all category pages)
 export async function generateStaticParams() {
@@ -22,6 +23,19 @@ export async function generateStaticParams() {
   return uniqueCategories.map((cat) => ({
     category: cat.toLowerCase(),
   }));
+}
+
+export async function generateMetadata({ params }: { params: Promise<{ category: string }> }): Promise<Metadata> {
+  const { category } = await params;
+  const normalizedCategory = category.toLowerCase();
+
+  return {
+    title: `Category: ${category}`,
+    description: `Browse posts filed under the ${category} category.`,
+    alternates: {
+      canonical: `/categories/${normalizedCategory}`,
+    },
+  };
 }
 
 // 2. Category page component

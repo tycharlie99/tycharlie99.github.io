@@ -1,6 +1,6 @@
 ---
-title: "Vim Tutorial"
-description: "The tutorial for the beginner to learn the Vim."
+title: "Getting Started with Vim"
+description: "A beginner-friendly guide to learning Vim and its core editing modes."
 publishedDate: 2023-03-21
 lastModified: 2023-04-10
 categories: ["Vim"]
@@ -9,11 +9,7 @@ keywords:
     - vim
     - tutorial
 draft: false
-aliases: ["/post/vim-tutorial/"]
 ---
-
-# Vim Tutorial
-
 As a software engineer, everyone has their own preferred editor such as Vscode, Sublime Text, Notepad++, etc. These commonly used editors usually have user-friendly graphical interfaces and, thanks to the efforts of various developers, rich packages that can be used. However, "Vim", a text editor that most people will come across when using UNIX-like OS, is also the protagonist of this article.
 
 The first time you encounter Vim, you may be like me, randomly pressing keys on the keyboard and finding that the screen doesn't move, or not knowing what you pressed to enable input, and you may think that this is a difficult editor to use. But among developers, Vim is a very popular editor that, once you are familiar with it, allows you to quickly develop without using a mouse. If you also want to be able to type on the keyboard and have the screen follow your thoughts, just like in the movies, you must learn Vim, this powerful editor.

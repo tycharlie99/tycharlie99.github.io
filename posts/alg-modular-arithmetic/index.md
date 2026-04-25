@@ -1,6 +1,6 @@
 ---
-title: "[Note] Modular Arithmetic"
-description: "Clarify the modular arithmetic. Include modular multiplicative inverse."
+title: "Modular Arithmetic"
+description: "An introduction to modular arithmetic, including modular inverses and Fermat's little theorem."
 publishedDate: 2024-10-19
 lastModified:
 categories: ["Algorithms"]
@@ -12,8 +12,7 @@ keywords:
     - Fermat's little theorem
 draft: false
 ---
-
-# Modular Arithmetic
+A brief introduction to modular arithmetic, why it matters in programming, and how modular multiplicative inverses help with division under a modulus.
 
 ## Why Take the Modulus
 

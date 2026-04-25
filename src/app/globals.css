@@ -2,14 +2,14 @@
 @plugin "@tailwindcss/typography";
 
 :root {
-  --background: oklch(100% 0 0);      /* #ffffff */
-  --foreground: oklch(26.31% 0.035 264.39); /* #0f172a */
-  --border: oklch(92.9% 0.013 255.22);     /* #e2e8f0 */
-  --muted: oklch(54.91% 0.023 252.81);     /* #64748b */
-  --subtle: oklch(77.02% 0.014 255.56);    /* low-contrast text */
-  --accent: oklch(62.32% 0.159 256.39);    /* #3b82f6 */
-  --surface: oklch(98.46% 0.004 255.46);   /* subtle panel */
-  --surface-elevated: oklch(100% 0 0);     /* raised panel */
+  --background: oklch(96.6% 0.003 255);    /* softened paper gray */
+  --foreground: oklch(30% 0.016 255);      /* softened charcoal */
+  --border: oklch(86.5% 0.005 255);        /* quiet neutral border */
+  --muted: oklch(50% 0.01 255);            /* supporting text */
+  --subtle: oklch(69% 0.005 255);          /* low-contrast text */
+  --accent: oklch(52% 0.01 255);           /* restrained neutral accent */
+  --surface: oklch(94.4% 0.003 255);       /* subtle panel */
+  --surface-elevated: oklch(97.6% 0.002 255); /* raised panel */
   --overlay: oklch(0% 0 0 / 0.5);          /* modal backdrop */
 
   color-scheme: light;
@@ -17,15 +17,15 @@
 }
 
 .dark {
-  --background: oklch(12.89% 0.038 272.78); /* #020617 */
-  --foreground: oklch(96.7% 0.011 254.3);    /* #f1f5f9 */
-  --border: oklch(27.87% 0.035 264.43);    /* #1e293b */
-  --muted: oklch(71.07% 0.027 254.26);     /* #94a3b8 */
-  --subtle: oklch(45.05% 0.024 264.18);    /* low-contrast text */
-  --accent: oklch(73.53% 0.101 254.12);    /* #60a5fa */
-  --surface: oklch(18.26% 0.034 268.55);   /* subtle panel */
-  --surface-elevated: oklch(21.51% 0.034 267.03); /* raised panel */
-  --overlay: oklch(0% 0 0 / 0.6);          /* modal backdrop */
+  --background: oklch(23% 0.004 260);      /* softened charcoal */
+  --foreground: oklch(95.8% 0.003 260);    /* gentle off-white */
+  --border: oklch(37% 0.004 260);          /* neutral border */
+  --muted: oklch(78% 0.003 260);           /* supporting text */
+  --subtle: oklch(62% 0.003 260);          /* low-contrast text */
+  --accent: oklch(84% 0.003 260);          /* quiet neutral highlight */
+  --surface: oklch(28% 0.004 260);         /* subtle panel */
+  --surface-elevated: oklch(32% 0.004 260); /* raised panel */
+  --overlay: oklch(0% 0 0 / 0.52);         /* modal backdrop */
   color-scheme: dark;
 }
 
